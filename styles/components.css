@@ -569,7 +569,7 @@ input:focus { border-color: #6366F1; }
   line-height: 1.5;
   resize: none;
 }
-#note-area:focus { outline: none; box-shadow: inset 0 0 0 2px #22c55e; }
+#note-area:focus { outline: none; box-shadow: inset 0 0 0 2px #6366F1; }
 
 #note-resizer {
   flex: 0 0 auto;
@@ -956,7 +956,6 @@ input:focus { border-color: #6366F1; }
   transform: scaleX(0);
   transform-origin: left;
 }
-.seg-btn:hover { color: var(--text-primary, #e2e8f0); }
 .seg-btn.active { color: #6366F1; }
 .seg-btn.active::after { animation: underline-draw 1s ease forwards; }
 
@@ -1136,7 +1135,12 @@ input:focus { border-color: #6366F1; }
    GLOBAL INTERACTION OVERRIDES
    ========================================================================== */
 .seg-btn:hover,
-#start-test-btn:hover { border: none; color: white; }
+#start-test-btn:hover
+   { border: none; color: #2921c0; }
+   .mode-btn:hover,
+  .dir-btn:hover{
+    text-decoration: underline solid 3px #2921c0;
+  }
 
 /* Prevent border bounce on typeless buttons (menus, dismiss, etc.) */
 .mobile-popup-item { border: 1px solid transparent !important; }
@@ -1146,9 +1150,13 @@ button:not(
   .seg-btn,
   #onboarding-dismiss,
   #start-test-btn,
-  #qbank-open-btn):hover {
+  #qbank-open-btn,
+  .mode-btn,
+  .dir-btn):hover {
   border: 1px solid #4f46e5 !important;
 }
+
+
 
 /* ==========================================================================
    ANIMATIONS
