@@ -128,6 +128,23 @@
     // Wire the (hidden) native dropdown
     viewSelect.addEventListener('change', onDropdownChange);
 
+    // Wire management buttons — route by viewMode & privacy link
+    var privacyLink = document.getElementById('privacy-link');
+    if (privacyLink) {
+      privacyLink.addEventListener('click', function (e) {
+        e.preventDefault();
+        setMode('privacy');
+      });
+    }
+
+    // Wire privacy back button
+    var privacyBackBtn = document.getElementById('privacy-back-btn');
+    if (privacyBackBtn) {
+      privacyBackBtn.addEventListener('click', function () {
+        setMode('lists');
+      });
+    }
+
     // Wire management buttons — route by viewMode
     var mgmtNew    = document.getElementById('mgmt-new-btn');
     var mgmtDelete = document.getElementById('mgmt-delete-btn');
@@ -215,6 +232,11 @@
     } else if (mode === 'analytics') {
       window.setState({
         viewMode: 'analytics',
+        noteActive: false
+      });
+    } else if (mode === 'privacy') {
+      window.setState({
+        viewMode: 'privacy',
         noteActive: false
       });
     } else {
@@ -341,4 +363,5 @@
   }
 
   window.initWorkspaceToggle = initWorkspaceToggle;
+  window.setViewMode = setMode;
 })();

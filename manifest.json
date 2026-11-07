@@ -1,6 +1,6 @@
 {
-  "name": "RecallRx",
-  "short_name": "RecallRx",
+  "name": "Vault Recall",
+  "short_name": "Vault Recall",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

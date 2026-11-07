@@ -7,6 +7,7 @@
  *   • Theme toggle (dark/light/cybersecurity)
  *   • Language toggle (EN ↔ VI)
  *   • Accordion sections in the sidebar
+ *   • Launcher modal
  * -----------------------------------------------------------------------------
  */
 (function () {
@@ -18,10 +19,11 @@
     initTheme();
     initLang();
     initAccordion();
+    initLauncher();
   }
 
   // ─── Sidebar ─────────────────────────────────────────────────────────────
-  function initSidebar() {
+    function initSidebar() {
     var wrapper = document.getElementById('sidebar-wrapper');
     var tab = document.getElementById('sidebar-toggle');
     if (!wrapper || !tab) return;
@@ -32,9 +34,15 @@
       var open = window.getState().sidebarOpen;
 
       if (mq.matches) {
-        wrapper.classList.toggle('collapsed', !open);
-        wrapper.classList.toggle('open', open);
+        // Mobile: slide the overlay up/down
+        var sidebar = wrapper.querySelector('.controls-sidebar');
+        if (sidebar) {
+          sidebar.style.transform = open ? 'translateY(0)' : 'translateY(-100%)';
+        }
       } else {
+        // Desktop: standard collapse
+        var sidebar = wrapper.querySelector('.controls-sidebar');
+        if (sidebar) sidebar.style.transform = 'none';
         wrapper.classList.toggle('open', open);
         wrapper.classList.toggle('collapsed', !open);
       }
@@ -46,10 +54,13 @@
 
     function setDefault() {
       var savedState = localStorage.getItem('sidebarOpen');
-      if (savedState !== null) {
+      if (mq.matches) {
+        // Force closed on mobile load so it doesn't block the screen
+        window.setState({ sidebarOpen: false });
+      } else if (savedState !== null) {
         window.setState({ sidebarOpen: savedState === 'true' });
       } else {
-        window.setState({ sidebarOpen: !mq.matches });
+        window.setState({ sidebarOpen: true });
       }
     }
 
@@ -59,13 +70,16 @@
     mq.addEventListener('change', function (e) {
       if (e.matches === lastMatch) return;
       lastMatch = e.matches;
+      
+      // When resizing from desktop to mobile, force it closed
+      if (e.matches) {
+        window.setState({ sidebarOpen: false });
+      }
       applyOpen();
     });
 
     tab.addEventListener('click', function () {
-      var nextState = !window.getState().sidebarOpen;
-      window.setState({ sidebarOpen: nextState });
-      localStorage.setItem('sidebarOpen', String(nextState));
+      openLauncher();
     });
 
     window.subscribe(function (state, prev) {
@@ -76,7 +90,7 @@
   }
 
   // ─── Playback bar placement ──────────────────────────────────────────────
-    function initPlaybackBar() {
+  function initPlaybackBar() {
     var bar = document.querySelector('.mobile-playback-bar');
     var sidebar = document.querySelector('.controls-sidebar');
     var shell = document.querySelector('.app-shell');
@@ -169,6 +183,66 @@
         cur[key] = section.classList.contains('open');
         window.storage.set('accOpen', cur);
       });
+    });
+  }
+
+  // ─── Launcher modal ──────────────────────────────────────────────────────
+  function openLauncher() {
+    var modal = document.getElementById('launcher-modal');
+    if (modal) {
+      // Update the sidebar button text based on current state
+      var sidebarBtn = document.getElementById('launcher-sidebar');
+      if (sidebarBtn) {
+        var isOpen = window.getState().sidebarOpen;
+        sidebarBtn.textContent = isOpen ? window.__i18n__.t('closeSidebar') : window.__i18n__.t('openSidebar');
+      }
+      modal.classList.add('visible');
+    }
+  }
+
+  function closeLauncher() {
+    var modal = document.getElementById('launcher-modal');
+    if (modal) modal.classList.remove('visible');
+  }
+
+  function initLauncher() {
+    var modal       = document.getElementById('launcher-modal');
+    var closeBtn    = document.getElementById('launcher-close');
+    var dashBtn     = document.getElementById('launcher-dashboard');
+    var helpBtn     = document.getElementById('launcher-help');
+    var notesBtn    = document.getElementById('launcher-notes');
+    var sidebarBtn  = document.getElementById('launcher-sidebar');
+    if (!modal) return;
+
+    closeBtn.addEventListener('click', closeLauncher);
+    modal.addEventListener('click', function (e) {
+      if (e.target === modal) closeLauncher();
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && modal.classList.contains('visible')) closeLauncher();
+    });
+
+    dashBtn.addEventListener('click', function () {
+      if (typeof window.setViewMode === 'function') window.setViewMode('analytics');
+      closeLauncher();
+    });
+
+    helpBtn.addEventListener('click', function () {
+      window.storage.set('hintDismissed', false);
+      if (typeof window.__onboardingShow__ === 'function') window.__onboardingShow__();
+      closeLauncher();
+    });
+
+    notesBtn.addEventListener('click', function () {
+      if (typeof window.setViewMode === 'function') window.setViewMode('notes');
+      closeLauncher();
+    });
+
+    sidebarBtn.addEventListener('click', function () {
+      var nextState = !window.getState().sidebarOpen;
+      window.setState({ sidebarOpen: nextState });
+      localStorage.setItem('sidebarOpen', String(nextState));
+      closeLauncher();
     });
   }
 

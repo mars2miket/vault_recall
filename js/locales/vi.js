@@ -88,7 +88,13 @@ window.__LOCALES__.vi = {
   confirmMessage: "Bạn có chắc không?",
   cancel: "Hủy",
   confirm: "Xác nhận",
+  closeSidebar: "Đóng",
   delete:"Xóa bỏ 🗑",
+  menuTitle: "Menu",
+  openSidebar: "Mở",
+  privacyPolicy: "Chính sách bảo mật",
+  toggleSidebar: "Bật/tắt thanh bên",
+  
 
   // Note buttons
   newNote: "Ghi chú mới",

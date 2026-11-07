@@ -128,7 +128,7 @@ if (['dark', 'light', 'cybersecurity'].indexOf(theme) === -1) theme = 'dark';
     var fn = window[name];
     if (typeof fn !== 'function') return;
     try { fn(); }
-    catch (err) { console.error('[RecallRx] ' + name + ' failed:', err); }
+    catch (err) { console.error('[Vault Recall] ' + name + ' failed:', err); }
   }
 
   safeInit('initModal');
@@ -143,5 +143,5 @@ if (['dark', 'light', 'cybersecurity'].indexOf(theme) === -1) theme = 'dark';
   safeInit('initOnboarding');
   safeInit('initWorkspaceToggle');
 
-  console.log('[RecallRx] Data layer ready with Analytics support.');
+  console.log('[Vault Recall] Data layer ready with Analytics support.');
 })();

@@ -87,6 +87,8 @@
       }
     }
 
+    window.__onboardingShow__ = applyHintVisibility;
+
     // Wire dismiss on the original card
     bindDismiss(hint);
 

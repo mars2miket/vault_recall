@@ -219,8 +219,12 @@
       noteResizer.classList.add('resizing');
 
       function onMove(e2) {
-        noteArea.style.height = Math.max(80, startH + (e2.clientY - startY)) + 'px';
+        var newHeight = Math.max(80, startH + (e2.clientY - startY));
+        // Cap the height at 70% of the window height to prevent it from hiding the link
+        var maxAllowed = window.innerHeight * 0.6; 
+        noteArea.style.height = Math.min(newHeight, maxAllowed) + 'px';
       }
+
       function onUp(e2) {
         noteResizer.classList.remove('resizing');
         window.storage.set('noteHeight', Math.round(noteArea.getBoundingClientRect().height));

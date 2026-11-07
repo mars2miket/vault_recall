@@ -87,8 +87,13 @@ window.__LOCALES__.en = {
   confirmTitle: "Confirm",
   confirmMessage: "Are you sure?",
   cancel: "Cancel",
+  closeSidebar: "Close",
   confirm: "Confirm",
   delete:"Delete 🗑",
+  menuTitle: "Menu",
+  privacyPolicy: "Privacy Policy",
+  openSidebar: "Open",
+  toggleSidebar: "Toggle sidebar",  
 
   // Note buttons
   newNote: "New note",

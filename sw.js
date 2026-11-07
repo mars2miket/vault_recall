@@ -1,5 +1,5 @@
 // Bump CACHE when you want to force-refresh all cached files.
-var CACHE = 'recallrx-v4';
+var CACHE = 'vault-recall-v6';
 var FILES = [
   './', 'index.html', 'manifest.json',
   'styles/base-layout.css', 'styles/components.css',

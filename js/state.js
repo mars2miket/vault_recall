@@ -119,5 +119,5 @@
   window.resetState = resetState;
 
   // Debug helper
-  window.__recallrx_state__ = function () { return state; };
+  window.__vaultrecall_state__ = function () { return state; };
 })();
