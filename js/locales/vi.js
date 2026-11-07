@@ -87,6 +87,7 @@ window.__LOCALES__.vi = {
   confirmMessage: "Bạn có chắc không?",
   cancel: "Hủy",
   confirm: "Xác nhận",
+  contactUs: "Liên hệ chúng tôi",
   closeSidebar: "Đóng menu",
   delete:"Xóa bỏ 🗑",
   menuTitle: "Menu",

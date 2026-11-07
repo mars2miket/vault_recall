@@ -87,6 +87,7 @@ window.__LOCALES__.en = {
   confirmMessage: "Are you sure?",
   cancel: "Cancel",
   closeSidebar: "Close sidebar",
+  contactUs: "Contact Us",
   confirm: "Confirm",
   delete:"Delete 🗑",
   menuTitle: "Menu",

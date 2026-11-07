@@ -238,6 +238,16 @@
       closeLauncher();
     });
 
+    var regBtn = document.getElementById('launcher-register');
+var regModal = document.getElementById('register-modal');
+var regCancel = document.getElementById('register-cancel');
+regBtn.addEventListener('click', function(){
+  closeLauncher();
+  regModal.classList.add('visible');
+});
+regCancel.addEventListener('click', function(){ regModal.classList.remove('visible'); });
+regModal.addEventListener('click', function(e){ if(e.target===regModal) regModal.classList.remove('visible'); });
+
     sidebarBtn.addEventListener('click', function () {
       var nextState = !window.getState().sidebarOpen;
       window.setState({ sidebarOpen: nextState });
