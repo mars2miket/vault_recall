@@ -333,6 +333,7 @@
           <!-- Persistent Privacy Link -->
           <div class="workspace-footer-link">
             <a href="#" id="privacy-link" class="privacy-link" data-i18n="privacyPolicy">Privacy Policy</a>
+            <a href="#" id="launcher-register" class="privacy-link" data-i18n="contactUs">Contact Us</a>
           </div>
 
         </main>
@@ -367,13 +368,46 @@
             Analysis</button>
           <button class="launcher-item" id="launcher-help" type="button" data-i18n="showHint">Show help</button>
           <button class="launcher-item" id="launcher-notes" type="button" data-i18n="notes">Notes</button>
+          
           <button class="launcher-item" id="launcher-sidebar" type="button" data-i18n="toggleSidebar">Open/Close</button>
+
         </div>
+
+        
         <div class="modal-actions">
           <button class="modal-btn" id="launcher-close" type="button" data-i18n="cancel">Cancel</button>
         </div>
       </div>
     </div>
+
+    <div class="modal-overlay" id="register-modal" role="dialog" aria-modal="true">
+  <div class="modal-card">
+    <h3 class="modal-title">Contact Info</h3>
+    <form class="launcher-form" id="register-form" novalidate>
+      <input class="ctrl-input" type="text"  name="firstName" placeholder="Legal First Name" required>
+      <input class="ctrl-input" type="text"  name="lastName"  placeholder="Legal Last Name" required>
+      <input class="ctrl-input" type="email" name="email"     placeholder="Enter your E-Mail ID" required>
+      <input class="ctrl-input" type="email" name="email2"    placeholder="Re-Enter your E-Mail ID" required>
+      <select class="ctrl-select" name="gender" required>
+        <option value="">Gender Assigned at Birth</option>
+        <option>Female</option><option>Male</option><option>Intersex</option><option>Prefer not to say</option>
+      </select>
+      <select class="ctrl-select" name="country" required>
+        <option value="">-- Select Country --</option>
+        <option>United States</option><option>Vietnam</option><option>India</option>
+      </select>
+      <input class="ctrl-input" type="tel" name="mobile" placeholder="Mobile No">
+      <label class="launcher-check">
+        <input type="checkbox" name="privacy" required>
+        I agree to the <a href="#" data-privacy>Privacy Policy</a>
+      </label>
+    </form>
+    <div class="modal-actions">
+      <button class="modal-btn" id="register-cancel" type="button">Cancel</button>
+      <button class="modal-btn confirm" id="register-submit" type="button">Submit</button>
+    </div>
+  </div>
+</div>
 
     <!-- ══════════════════ CONFIRM MODAL ══════════════════ -->
     <div class="modal-overlay" id="confirm-modal" role="dialog" aria-modal="true" aria-labelledby="confirm-modal-title">
