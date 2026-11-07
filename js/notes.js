@@ -220,8 +220,13 @@
 
       function onMove(e2) {
         var newHeight = Math.max(80, startH + (e2.clientY - startY));
-        // Cap the height at 70% of the window height to prevent it from hiding the link
-        var maxAllowed = window.innerHeight * 0.6; 
+        // Calculate max allowed height based on distance to the bottom of the window
+        var rect = noteArea.getBoundingClientRect();
+        var availableSpace = window.innerHeight - rect.top;
+        // Keep at least 10% of the window height (or 40px minimum) below the note area
+        var bottomBuffer = Math.max(window.innerHeight * 0.12, 40);
+        var maxAllowed = availableSpace - bottomBuffer;
+        
         noteArea.style.height = Math.min(newHeight, maxAllowed) + 'px';
       }
 

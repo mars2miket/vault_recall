@@ -73,7 +73,6 @@ window.__LOCALES__.en = {
   loop: "Loop",
   moreOptions: "More Options",
   newList: "New deck",
-  openSideBar: "Open sidebar",
   playBackMenu: "Play Back Menu",
   read: "Read",
   renameList: "Rename deck",
@@ -87,12 +86,12 @@ window.__LOCALES__.en = {
   confirmTitle: "Confirm",
   confirmMessage: "Are you sure?",
   cancel: "Cancel",
-  closeSidebar: "Close",
+  closeSidebar: "Close sidebar",
   confirm: "Confirm",
   delete:"Delete 🗑",
   menuTitle: "Menu",
   privacyPolicy: "Privacy Policy",
-  openSidebar: "Open",
+  openSidebar: "Open sidebar",
   toggleSidebar: "Toggle sidebar",  
 
   // Note buttons
