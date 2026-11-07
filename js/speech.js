@@ -266,13 +266,19 @@ if (remaining.trim() !== '') speakText(remaining, true);
 speakText();
 }
 }
+
 function getReadableText() {
 var st = window.getState();
 if (st.viewMode === 'notes') {
 var noteArea = document.getElementById('note-area');
 return noteArea ? noteArea.value.replace(/\t/g, ' ').replace(/\n/g, ' ') : '';
 }
+if (st.viewMode === 'privacy') {
+var privacyEl = document.getElementById('privacy-workspace');
+return privacyEl ? privacyEl.innerText.replace(/\s+/g, ' ').trim() : '';
+}
 var rows = st.rows || [];
+
 var parts = [];
 rows.forEach(function (r) {
 if (r.a) parts.push(r.a);
