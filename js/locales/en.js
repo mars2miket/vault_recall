@@ -59,7 +59,7 @@ window.__LOCALES__.en = {
 
   // Buttons
   account: "Account",
-  addList: "New deck",
+  addList: "Create New",
   addRow: "+ Add Row",
   changeLanguage: "Change Language",
   clearContent: "Clear Content",
@@ -72,7 +72,7 @@ window.__LOCALES__.en = {
   impList: "Import file",
   loop: "Loop",
   moreOptions: "More Options",
-  newList: "New deck",
+  newList: "Create New",
   playBackMenu: "Play Back Menu",
   read: "Read",
   renameList: "Rename deck",
@@ -165,9 +165,9 @@ window.__LOCALES__.en = {
   examTotal: "Total questions",
   testResultsNote: "Test Results",
   errNoteLocked: "This note is locked and cannot be edited, renamed, or deleted.",
-  saveMissedBtn: "Save missed as list",
+  saveMissedBtn: "Save missed as deck",
   missedSuffix: "Missed",
-  savedMissedMsg: 'Created list "{name}". Press Start Test to practice it.',
+  savedMissedMsg: 'Created deck "{name}". Press Start Test to practice it.',
 
   // Skip / retest
   examSkip: "Skip",

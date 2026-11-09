@@ -126,7 +126,8 @@
     if (state.activeNote === RESULTS_KEY) { say(t('errNoteLocked', 'This note is locked and cannot be edited, renamed, or deleted.')); return; }
 
     var current = state.activeNote;
-    ask(t('renameNote', 'Rename note'), t('promptRenameNote', 'Rename note:'), current, function (raw) {
+    var shown = (typeof window.getDisplayName === 'function') ? window.getDisplayName(current, 'notes') : current;
+    ask(t('renameNote', 'Rename note'), t('promptRenameNote', 'Rename note:'), shown, function (raw) {
       var name = raw.trim();
       var st = window.getState();
       if (!name || name === current) return;
@@ -140,6 +141,7 @@
       window.setState({ notes: notes, activeNote: name });
     });
   }
+
 
   function onDeleteNote() {
     var state = window.getState();
