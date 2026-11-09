@@ -2,34 +2,34 @@
 
 [Live Web Application Link via GitHub Pages]
 
-## 1. Product Vision & Strategy
-Vault Recall is a local-first, browser-based flashcard and micro-testing platform built for low-friction digital learning. The application solves a common user friction point: traditional flashcard apps require heavy setup, while spreadsheets are clumsy for self-testing. Vault Recall bridges this gap by turning any instant two-column list into an interactive, testable memory deck with localized layout parameters.
+## 1. Product Goal
+Vault Recall is a web app built to turn lists into quick memory tests. Flashcard apps usually force you to create an account, while spreadsheets are clumsy for self-testing. Vault Recall solves this by instantly converting any pasted two-column list into an interactive, testable deck directly in your browser.
 
-### Target Personas & Problem Statement
-*   **The High-Velocity Learner:** Needs a zero-account setup to quickly paste, mask, and test themselves on vocabulary, codes, or terms.
-*   **The Cross-Platform Mobile User:** Needs an offline-capable tool that lets them study or listen to their material while commuting, without relying on steady internet connectivity.
-
----
-
-## 2. Product Management & AI Orchestration (Architecture)
-As the Product Owner, I designed the product requirements, defined the technical constraints, and managed an AI engineering workflow to build a zero-dependency, modular Vanilla JS architecture.
-
-*   **Modular Architecture Design:** Enforced strict file segregation (`grid.js`, `exam.js`, `storage.js`) and mapped out a explicit load-order dependency graph to ensure clean system state propagation via a pub/sub (`state.js`) model.
-*   **Scope Optimization (MVP Management):** Actively managed feature creep. While investigating secondary testing methodologies, I deprecated the high-overhead "fill-in-the-blank" mode during the alpha cycle to focus development energy on bulletproof Multiple Choice and True/False engines.
-*   **Internationalization (i18n):** Directed and validated the multi-language framework (`i18n.js`), launching core dictionary support for English (`en.js`) and conversational Vietnamese (`vi.js`) to expand geographic accessibility.
+### Who it is for
+*   **The Quick Learner:** Wants to paste a list of terms, hide a column, and test themselves immediately without signing up.
+*   **The Mobile User:** Wants an app that runs locally so they can study their material while moving, without needing a steady internet connection.
 
 ---
 
-## 3. User Acceptance Testing (UAT) & Product Quality
-Rather than just reviewing code, I acted as the lead UAT Tester, executing structured validation loops across multiple platforms (PC and Mobile browsers) to stabilize the application lifecycle.
+## 2. Product Setup & Scope
+I defined the requirements, set the boundaries, and managed the work to build this modular JavaScript application.
 
-### Critical Edge Cases Identified & Fixed
-*   **Mobile Screen Lock Defect (Speech Synthesis):** Found that mobile web browsers paused native speech engine playback when screen timeout occurred. Directed a mitigation strategy focusing on chunked utterance blocks and state-checking heartbeat loops to retain system stability.
-*   **UI Projection Constraints:** Identified navigation bottlenecks on smaller mobile viewports. Designed a layout override (700px breakpoint) that hides complex settings containers into localized popup modals, optimizing touch targets for active users.
-*   **Data Validation Loops:** Outlined acceptance criteria to flag duplicate entries within user grids instantly, forcing an orange highlight notification rule to protect test grading integrity.
+*   **Modular Organization:** Split the code into clean, dedicated files (`grid.js`, `exam.js`, `storage.js`) to keep the app lightweight and ensure data saves to the browser instantly.
+*   **MVP Management:** Stopped feature creep by cutting out all external server and database plans. Focused entirely on a local app to hit a fast launch date and ensure total user data privacy.
+*   **Dual-Language Support:** Set up a translation system to launch the interface with full options for both English and Vietnamese.
 
 ---
 
-## 4. Feature Roadmap & Future Iterations
-*   **Advanced Analytics Data Hydration:** Expand the current dashboard functionality to parse complex historical metadata trends from local storage strings.
-*   **Cloud Audio Streaming Integration:** Transition the native speech module options toward an HTML5 stream option to fully bypass persistent OS background limitations on mobile.
+## 3. User Acceptance Testing (UAT)
+I acted as the lead tester, running manual test scripts across desktop and mobile browsers to find bugs and ensure the interface works on all screen sizes.
+
+### Core Testing Issues Found
+*   **Mobile Audio Interruption:** Found that mobile phones pause the text-to-speech engine when the browser tab is hidden or the screen locks. Wrote down the technical requirements and created test cases to find a workaround for background playback.
+*   **Mobile Screen Layout:** Found navigation issues on smaller phone screens. Designed a layout rule that moves crowded settings buttons into clean mobile popup menus.
+*   **Data Entry Validation:** Created a rule that highlights duplicate words in yellow instantly so users don't mess up their quiz scores.
+
+---
+
+## 4. Next Steps
+*   **Progress Dashboard:** Update the app to read saved browser data and show users how their quiz scores improve over time.
+*   **Alternative Audio Handling:** Look into cloud-based audio stream alternatives to bypass mobile phone sleep restrictions.
