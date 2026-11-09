@@ -41,7 +41,7 @@ window.__LOCALES__.vi = {
   analyticsTopMissed: "5 mục sai nhiều nhất",
   analyticsEmpty: "Chưa có dữ liệu. Hoàn thành một bài kiểm tra để xem thống kê!",
   analyticsPerfect: "Điểm tuyệt đối! Không có mục nào bị sai.",
-  dashboard:"Bảng điều khiển",
+  dashboard: "Bảng điều khiển",
   questionBank: "Tạo ngân hàng câu hỏi",
 
   // Footer
@@ -49,7 +49,7 @@ window.__LOCALES__.vi = {
   resetTimer: "Đặt lại",
   chars: "Ký tự",
   est: "Ước tính",
-  stopTime:"Bộ hẹn giờ",
+  stopTime: "Bộ hẹn giờ",
 
   // Grid columns
   hideColA: "👁️ Cột A",
@@ -89,13 +89,12 @@ window.__LOCALES__.vi = {
   confirm: "Xác nhận",
   contactUs: "Liên hệ chúng tôi",
   closeSidebar: "Đóng menu",
-  delete:"Xóa bỏ 🗑",
+  delete: "Xóa bỏ 🗑",
   menuTitle: "Menu",
   openSidebar: "Mở menu",
   privacyPolicy: "Chính sách bảo mật",
   toggleSidebar: "Bật/tắt thanh bên",
   
-
   // Note buttons
   newNote: "Ghi chú mới",
   renameNote: "Đổi tên ghi chú",
@@ -106,7 +105,7 @@ window.__LOCALES__.vi = {
   onboardingBody: "Biến danh sách hai cột thành bài kiểm tra trí nhớ. Ẩn một cột, tự kiểm tra, và xem lại các câu trả lời sai.",
   onboardingSampleBadge: "Mẫu",
   onboardingDismiss: "Đóng",
-  onboardingBullet0: "Trước nhất, thêm dữ liệu vào cả hai cột.",
+  onboardingBullet0: "Trước nhất, thêm dữ liệu vào cả hai cột.",
   onboardingBullet1: "Nhấp vào Ẩn cột A hoặc Ẩn cột B để che một cột và tự kiểm tra.",
   onboardingBullet2: "Nhấp vào Bắt đầu kiểm tra để làm bài kiểm tra có chấm điểm với các chế độ trắc nghiệm, đúng/sai hoặc điền chỗ trống.",
   onboardingBullet3: "Sử dụng nút chuyển Bài / Ghi chú để tổ chức nhiều bộ thẻ hoặc ghi chú.",
@@ -121,11 +120,9 @@ window.__LOCALES__.vi = {
   controls: "Tùy chọn đọc",
   voices: "Giọng nói",
 
-
   // Spreadsheet headers
   startTest: "Bắt đầu bài kiểm",
   showColumn: "Hiện cột",
-
 
   // Stepper
   stepEnter: "Nhập dữ liệu",
@@ -137,7 +134,6 @@ window.__LOCALES__.vi = {
   femaleOnly: "Chỉ giọng nữ",
   maleOnly: "Chỉ giọng nam",
   searchVoices: "Tìm giọng nói...",
-
 
   // Modal dialogs
   ok: "OK",
@@ -160,7 +156,6 @@ window.__LOCALES__.vi = {
   errFileEmpty: "Tệp trống.",
   errFileRead: "Không thể đọc tệp.",
 
-
   // Results / notes
   resultDate: "Ngày kiểm tra",
   resultTitle: "Tên bài kiểm tra",
@@ -174,13 +169,11 @@ window.__LOCALES__.vi = {
   missedSuffix: "Mục sai",
   savedMissedMsg: 'Đã tạo danh sách "{name}". Nhấn Bắt đầu kiểm tra để luyện tập.',
 
-
   // Skip / retest
   examSkip: "Bỏ qua",
   examRetest: "Kiểm tra lại",
   examRetestBtn: "Kiểm tra lại mục sai",
   resultSkipped: "Đã bỏ qua",
-
 
   // Missed Questions / results screen / duplicates
   missedListName: "Câu hỏi đã sai",
@@ -206,5 +199,4 @@ window.__LOCALES__.vi = {
   qbankLoadErr: "Không thể tải ngân hàng câu hỏi.",
   qbankNone: "Không tìm thấy danh mục.",
   qbankSelect: "Chọn một danh mục.",
-
 };

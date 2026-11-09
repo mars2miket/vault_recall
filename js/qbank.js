@@ -1,10 +1,11 @@
 /**
  * qbank.js — classic script.
+ * Handles the Question Bank modal, CSV parsing, and deck generation.
  */
 (function () {
   'use strict';
 
-  var CSV_URLS = ['Q_Bank.csv', 'ai.csv']; // Ensure these filenames match your folder exactly
+  var CSV_URLS = ['Q_Bank.csv', 'ai.csv'];
   var DEFAULT_COUNT = 20;
   var USED_KEY = 'qbankUsed';
   var SEQ_KEY = 'qbankSeq';
@@ -102,6 +103,7 @@
     overlay.id = 'qbank-modal';
     overlay.setAttribute('role', 'dialog');
     overlay.setAttribute('aria-modal', 'true');
+    overlay.setAttribute('aria-hidden', 'true');
 
     var card = el('div', 'modal-card qbank-card');
     titleEl = el('h3', 'modal-title');
@@ -227,9 +229,10 @@
     listEl.innerHTML = '';
     statusEl.textContent = t('qbankLoading', 'Loading...');
     updateControls();
+    
     overlay.classList.add('visible');
+    overlay.setAttribute('aria-hidden', 'false');
 
-    // ─── UPDATED TO LOAD MULTIPLE FILES ───
     Promise.all(
       CSV_URLS.map(function(url) {
         return fetch(url, { cache: 'no-cache' })
@@ -262,7 +265,10 @@
 
   function close() {
     window.storage.set(OPEN_KEY, false);
-    if (overlay) overlay.classList.remove('visible');
+    if (overlay) {
+      overlay.classList.remove('visible');
+      overlay.setAttribute('aria-hidden', 'true');
+    }
   }
 
   // ─── Actions ─────────────────────────────────────────────────────────────
@@ -298,6 +304,7 @@
     var picked = shuffle(pool.slice()).slice(0, n);
     var st = window.getState();
     var lists = Object.assign({}, st.lists);
+    
     if (st.activeList && typeof window.serializeGrid === 'function') {
       lists[st.activeList] = window.serializeGrid();
     }
@@ -305,14 +312,18 @@
     var seq = window.storage.get(SEQ_KEY, {}) || {};
     var num = (seq[selected] || 0) + 1;
     var name = selected + ' #' + num + ' (' + n + ')';
+    
     while (name in lists) { num++; name = selected + ' #' + num + ' (' + n + ')'; }
     seq[selected] = num;
+    
     window.storage.set(SEQ_KEY, seq);
 
     lists[name] = picked.map(function (i) { return i.q + '\t' + i.a; }).join('\n');
     picked.forEach(function (i) { used[i.id] = 1; });
+    
     var wrong = window.storage.get(WRONG_KEY, {}) || {};
     picked.forEach(function (i) { if (i.w && i.w.length) wrong[i.id] = i.w; });
+    
     window.storage.set(WRONG_KEY, wrong);
     saveUsedSet(used);
 
@@ -321,9 +332,11 @@
       activeList: name,
       rows: window.parseList(lists[name])
     });
+
     if (typeof window.__gridRerender__ === 'function') window.__gridRerender__();
     if (typeof window.updateCharCount === 'function') window.updateCharCount();
     if (typeof window.syncStartTestButton === 'function') window.syncStartTestButton();
+    
     close();
   }
 
@@ -331,8 +344,6 @@
   function initQbank() {
     var btn = document.getElementById('qbank-open-btn');
     if (btn) btn.addEventListener('click', open);
-
-    if (window.storage.get(OPEN_KEY, false)) open();
   }
 
   window.qbankWrongFor = function (prompt) {

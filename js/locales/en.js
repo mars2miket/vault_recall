@@ -36,20 +36,20 @@ window.__LOCALES__.en = {
   examScoreOutOf: "out of",
   examCompleteHint: "Click Notes and select Test Results in the dropdown menu to see how you've scored.",
   analytics: "Analytics",
-  analyticsTotalTests: "Total Tests",
+  analyticsTotalTests: "Total Tests Taken",
   analyticsAvgAccuracy: "Average Accuracy",
   analyticsTopMissed: "Top 5 Missed Items",
   analyticsEmpty: "No analytics test data found. Complete an exam to see dashboard!",
   analyticsPerfect: "Perfect score! No missed items tracked.",
-  dashboard:"Testing Analysis",
-  questionBank:"Create Question Bank",
+  dashboard: "Testing Analysis",
+  questionBank: "Create Question Bank",
 
   // Footer
   timer: "Timer",
   resetTimer: "Reset",
   chars: "Chars",
   est: "Est",
-  stopTime:"Timer",
+  stopTime: "Timer",
 
   // Grid columns
   hideColA: "👁️ Col A",
@@ -59,7 +59,7 @@ window.__LOCALES__.en = {
 
   // Buttons
   account: "Account",
-  addList: "New file",
+  addList: "New deck",
   addRow: "+ Add Row",
   changeLanguage: "Change Language",
   clearContent: "Clear Content",
@@ -89,7 +89,7 @@ window.__LOCALES__.en = {
   closeSidebar: "Close sidebar",
   contactUs: "Contact Us",
   confirm: "Confirm",
-  delete:"Delete 🗑",
+  delete: "Delete 🗑",
   menuTitle: "Menu",
   privacyPolicy: "Privacy Policy",
   openSidebar: "Open sidebar",
@@ -135,7 +135,6 @@ window.__LOCALES__.en = {
   maleOnly: "Male Only",
   searchVoices: "Search voices...",
 
-
   // Modal dialogs
   ok: "OK",
   noticeTitle: "Notice",
@@ -157,7 +156,6 @@ window.__LOCALES__.en = {
   errFileEmpty: "That file is empty.",
   errFileRead: "Could not read that file.",
 
-
   // Results / notes
   resultDate: "Test Date",
   resultTitle: "Test Title",
@@ -171,13 +169,11 @@ window.__LOCALES__.en = {
   missedSuffix: "Missed",
   savedMissedMsg: 'Created list "{name}". Press Start Test to practice it.',
 
-
   // Skip / retest
   examSkip: "Skip",
   examRetest: "Retest",
   examRetestBtn: "Retest missed",
   resultSkipped: "Skipped",
-
 
   // Missed Questions / results screen / duplicates
   missedListName: "Missed Questions",
@@ -203,5 +199,4 @@ window.__LOCALES__.en = {
   qbankLoadErr: "Could not load the question bank.",
   qbankNone: "No categories found.",
   qbankSelect: "Select a category.",
-
 };
