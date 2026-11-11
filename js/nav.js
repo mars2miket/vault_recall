@@ -312,7 +312,7 @@
       });
     });
 
-    // Sign out
+        // Sign out
     if (signoutBtn) {
       signoutBtn.addEventListener('click', function() {
         currentRole = null;
@@ -322,6 +322,13 @@
         roleModal.setAttribute('aria-hidden', 'true');
       });
     }
+
+    // Update label when language changes
+    window.subscribe(function(state, prev) {
+      if (state.lang !== prev.lang) {
+        applyRole(currentRole);
+      }
+    });
   }
 
   window.initNav = initNav;
