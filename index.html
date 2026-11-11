@@ -209,21 +209,34 @@
           </div>
 
           <!-- ═══════════════ PRIVACY WORKSPACE ═══════════════ -->
-          <div id="privacy-workspace">
-            <button id="privacy-back-btn" class="mgmt-btn" type="button" style="margin-bottom: 20px;">← Back</button>
-            <h1>Privacy Policy</h1>
-            <p>Last updated: November 2026</p>
-            <h2>1. Information We Collect</h2>
-            <p>We only collect your name and email address when you voluntarily submit them through our contact form.</p>
-            <h2>2. How We Use Your Information</h2>
-            <p>We use this information strictly to contact you regarding your inquiry about our institute. We do not use your data for unrelated marketing.</p>
-            <h2>3. Data Sharing and Disclosure</h2>
-            <p>We do not sell, trade, or share your personal information with third parties.</p>
-            <h2>4. Data Security</h2>
-            <p>We implement reasonable security measures to protect your information from unauthorized access.</p>
-            <h2>5. Contact Us</h2>
-            <p>If you have questions about this policy or wish to have your information removed from our system, please contact us at <a href="mailto:email@placesaver.com">email@placesaver.com</a>.</p>
-          </div>
+<div id="privacy-workspace">
+  <!-- Reused existing key: examBackBtn ("← Back" / "← Quay lại") -->
+  <button id="privacy-back-btn" class="mgmt-btn" type="button" style="margin-bottom: 20px;" data-i18n="examBackBtn">← Back</button>
+  
+  <!-- Reused existing key: privacyPolicy ("Privacy Policy" / "Chính sách bảo mật") -->
+  <h1 data-i18n="privacyPolicy">Privacy Policy</h1>
+  
+  <p data-i18n="privacyLastUpdated">Last updated: November 2026</p>
+  
+  <h2 data-i18n="privacySec1Title">1. Information We Collect</h2>
+  <p data-i18n="privacySec1Body">We only collect your name and email address when you voluntarily submit them through our contact form.</p>
+  
+  <h2 data-i18n="privacySec2Title">2. How We Use Your Information</h2>
+  <p data-i18n="privacySec2Body">We use this information strictly to contact you regarding your inquiry about our institute. We do not use your data for unrelated marketing.</p>
+  
+  <h2 data-i18n="privacySec3Title">3. Data Sharing and Disclosure</h2>
+  <p data-i18n="privacySec3Body">We do not sell, trade, or share your personal information with third parties.</p>
+  
+  <h2 data-i18n="privacySec4Title">4. Data Security</h2>
+  <p data-i18n="privacySec4Body">We implement reasonable security measures to protect your information from unauthorized access.</p>
+  
+  <!-- Reused existing key: contactUs ("Contact Us" / "Liên hệ chúng tôi") for header prefix -->
+  <h2><span data-i18n="contactUs">Contact Us</span></h2>
+  <p>
+    <span data-i18n="privacySec5Body">If you have questions about this policy or wish to have your information removed from our system, please contact us at </span><a href="mailto:email@placesaver.com">email@placesaver.com</a>.
+  </p>
+</div>
+
 
           <!-- Exam counter strip -->
           <div class="exam-counter-strip">
@@ -285,33 +298,49 @@
 
     <!-- ══════════════════ CONTACT MODAL ══════════════════ -->
     <div class="modal-overlay" id="register-modal" role="dialog" aria-modal="true" aria-hidden="true">
-      <div class="modal-card">
-        <h3 class="modal-title">Contact Info</h3>
-        <form class="launcher-form" id="register-form" novalidate>
-          <input class="ctrl-input" type="text"  name="firstName" placeholder="Legal First Name" required>
-          <input class="ctrl-input" type="text"  name="lastName"  placeholder="Legal Last Name" required>
-          <input class="ctrl-input" type="email" name="email"     placeholder="Enter your E-Mail ID" required>
-          <input class="ctrl-input" type="email" name="email2"    placeholder="Re-Enter your E-Mail ID" required>
-          <select class="ctrl-select" name="gender" required>
-            <option value="">Gender Assigned at Birth</option>
-            <option>Female</option><option>Male</option><option>Intersex</option><option>Prefer not to say</option>
-          </select>
-          <select class="ctrl-select" name="country" required>
-            <option value="">-- Select Country --</option>
-            <option>United States</option><option>Vietnam</option><option>India</option>
-          </select>
-          <input class="ctrl-input" type="tel" name="mobile" placeholder="Mobile No">
-          <label class="launcher-check">
-            <input type="checkbox" name="privacy" required>
-            I agree to the <a href="#" data-privacy>Privacy Policy</a>
-          </label>
-        </form>
-        <div class="modal-actions">
-          <button class="modal-btn" id="register-cancel" type="button">Cancel</button>
-          <button class="modal-btn confirm" id="register-submit" type="button">Submit</button>
-        </div>
-      </div>
+  <div class="modal-card">
+    <!-- Changed: Static text to data-i18n attribute -->
+    <h3 class="modal-title" data-i18n="contactTitle">Contact Info</h3>
+    <form class="launcher-form" id="register-form" novalidate>
+      <!-- Changed: Static placeholders to data-i18n-placeholder attributes -->
+      <input class="ctrl-input" type="text"  name="firstName" data-i18n-placeholder="placeholderFirstName" required>
+      <input class="ctrl-input" type="text"  name="lastName"  data-i18n-placeholder="placeholderLastName" required>
+      <input class="ctrl-input" type="email" name="email"     data-i18n-placeholder="placeholderEmail" required>
+      <input class="ctrl-input" type="email" name="email2"    data-i18n-placeholder="placeholderEmailConfirm" required>
+      
+      <select class="ctrl-select" name="gender" required>
+        <!-- Changed: Static option text to data-i18n attributes -->
+        <option value="" data-i18n="genderSelect">Gender Assigned at Birth</option>
+        <option value="Female" data-i18n="genderFemale">Female</option>
+        <option value="Male" data-i18n="genderMale">Male</option>
+        <option value="Intersex" data-i18n="genderIntersex">Intersex</option>
+        <option value="None" data-i18n="genderPrivate">Prefer not to say</option>
+      </select>
+      
+      <select class="ctrl-select" name="country" required>
+        <!-- Changed: Static option text to data-i18n attributes -->
+        <option value="" data-i18n="countrySelect">-- Select Country --</option>
+        <option value="US" data-i18n="countryUS">United States</option>
+        <option value="VN" data-i18n="countryVN">Vietnam</option>
+        <option value="IN" data-i18n="countryIN">India</option>
+      </select>
+      
+      <input class="ctrl-input" type="tel" name="mobile" data-i18n-placeholder="placeholderMobile">
+      
+      <!-- Changed: Separated label text and link node for direct text targetting -->
+      <label class="launcher-check" id="privacy-label">
+        <input type="checkbox" name="privacy" required>
+        <span data-i18n="privacyAgree">I agree to the </span><a href="#" data-privacy data-i18n="privacyPolicyLink">Privacy Policy</a>
+      </label>
+    </form>
+    <div class="modal-actions">
+      <!-- Changed: Standardized button text to use existing key mappings if possible, or new ones -->
+      <button class="modal-btn" id="register-cancel" type="button" data-i18n="cancel">Cancel</button>
+      <button class="modal-btn confirm" id="register-submit" type="button" data-i18n="confirm">Submit</button>
     </div>
+  </div>
+</div>
+
 
     <!-- ══════════════════ CONFIRM MODAL ══════════════════ -->
     <div class="modal-overlay" id="confirm-modal" role="dialog" aria-modal="true" aria-labelledby="confirm-modal-title" aria-hidden="true">
