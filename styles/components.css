@@ -1337,3 +1337,36 @@ input:focus {
 .answer-btn.correct { animation: pulse-correct 0.35s ease; }
 .answer-btn.wrong   { animation: shake 0.35s ease; }
 .exam-complete-card { animation: fade-up 0.3s ease both; }
+
+/* Account Pill Styling */
+.account-btn {
+  width: auto !important; /* Allow button to expand */
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+
+.account-pill {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #6366F1; /* Indigo color for both icon and text */
+  white-space: nowrap; /* Prevent wrapping */
+}
+
+#account-role-label {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* Modal Role Buttons */
+.role-opt {
+  display: flex; align-items: center; gap: 12px; padding: 12px; 
+  border: 2px solid var(--border-color, #333); background: transparent; 
+  border-radius: 8px; cursor: pointer; color: var(--text-primary, #fff); 
+  width: 100%; font-size: 16px; transition: border-color 0.2s;
+}
+
+.role-opt:hover, .role-opt.active {
+  border-color: #6366F1;
+  color: #6366F1;
+}
