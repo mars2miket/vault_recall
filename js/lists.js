@@ -1,11 +1,14 @@
 /**
  * lists.js — classic script.
  * Manages the "Lists" data, dropdown population, and CRUD actions.
+ * Export/Import respect the current view (lists vs notes).
  */
 (function () {
   'use strict';
 
   var exportBtn, importBtn, importInput;
+
+  var RESULTS_KEY = '__TEST_RESULTS__';
 
   function t(key, fallback) {
     var v = (window.__i18n__ && window.__i18n__.t) ? window.__i18n__.t(key) : null;
@@ -155,14 +158,39 @@
     }
   }
 
-  // ─── Export / Import ─────────────────────────────────────────────────────
+  // ─── Export (view-aware) ─────────────────────────────────────────────────
   function onExport() {
     var state = window.getState();
+
+    if (state.viewMode === 'notes') {
+      exportNote(state);
+      return;
+    }
+
+    // Lists view (default)
     var text = window.serializeGrid ? window.serializeGrid() : '';
     if (!text.trim()) { say(t('errListEmpty', 'This list is empty — nothing to export.')); return; }
 
     var shownName = (typeof window.getDisplayName === 'function') ? window.getDisplayName(state.activeList, 'lists') : state.activeList;
-    var safeName = (shownName || 'list').replace(/[\\/:*?"<>|]/g, '_');
+    downloadText(shownName || 'list', text);
+  }
+
+  function exportNote(state) {
+    var key = state.activeNote;
+    if (!key || key === RESULTS_KEY) {
+      say(t('errNoNoteToExport', 'No note is selected to export.'));
+      return;
+    }
+
+    var text = (state.notes && state.notes[key]) || '';
+    if (!text.trim()) { say(t('errNoteEmpty', 'This note is empty — nothing to export.')); return; }
+
+    var shownName = (typeof window.getDisplayName === 'function') ? window.getDisplayName(key, 'notes') : key;
+    downloadText(shownName || 'note', text);
+  }
+
+  function downloadText(name, text) {
+    var safeName = (name || 'export').replace(/[\\/:*?"<>|]/g, '_');
     var blob = new Blob([text], { type: 'text/plain;charset=utf-8' });
     var url = URL.createObjectURL(blob);
 
@@ -175,6 +203,7 @@
     URL.revokeObjectURL(url);
   }
 
+  // ─── Import (view-aware) ─────────────────────────────────────────────────
   function onImport(e) {
     var file = e.target.files && e.target.files[0];
     if (!file) return;
@@ -199,27 +228,57 @@
       if (!raw.trim()) { say(t('errFileEmpty', 'That file is empty.')); importInput.value = ''; return; }
 
       var baseName = file.name.replace(/\.[^.]+$/, '').trim() || 'Imported';
-      var name = baseName;
-      var n = 2;
-      var state = window.getState();
-      while (name in state.lists) { name = baseName + ' (' + (n++) + ')'; }
 
-      var lists = Object.assign({}, state.lists);
-      if (state.activeList && typeof window.serializeGrid === 'function') {
-        lists[state.activeList] = window.serializeGrid();
+      var viewMode = window.getState().viewMode;
+      if (viewMode === 'notes') {
+        importAsNote(baseName, raw);
+      } else {
+        importAsList(baseName, raw);
       }
-      lists[name] = raw.replace(/\s+$/, '');
 
-      window.setState({
-        lists: lists,
-        activeList: name,
-        rows: parseList(lists[name])
-      });
-      if (typeof window.__gridRerender__ === 'function') window.__gridRerender__();
       importInput.value = '';
     };
     reader.onerror = function () { say(t('errFileRead', 'Could not read that file.')); importInput.value = ''; };
     reader.readAsText(file);
+  }
+
+  function importAsList(baseName, raw) {
+    var name = baseName;
+    var n = 2;
+    var state = window.getState();
+    while (name in state.lists) { name = baseName + ' (' + (n++) + ')'; }
+
+    var lists = Object.assign({}, state.lists);
+    if (state.activeList && typeof window.serializeGrid === 'function') {
+      lists[state.activeList] = window.serializeGrid();
+    }
+    lists[name] = raw.replace(/\s+$/, '');
+
+    window.setState({
+      lists: lists,
+      activeList: name,
+      rows: parseList(lists[name])
+    });
+    if (typeof window.__gridRerender__ === 'function') window.__gridRerender__();
+  }
+
+  function importAsNote(baseName, raw) {
+    var name = baseName;
+    var n = 2;
+    var state = window.getState();
+    while (name in state.notes || name === RESULTS_KEY) {
+      name = baseName + ' (' + (n++) + ')';
+    }
+
+    var notes = Object.assign({}, state.notes);
+    notes[name] = raw.replace(/\s+$/, '');
+
+    window.setState({
+      notes: notes,
+      activeNote: name,
+      noteActive: true,
+      viewMode: 'notes'
+    });
   }
 
   // ─── Serialization helpers ───────────────────────────────────────────────
