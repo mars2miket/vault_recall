@@ -6,6 +6,7 @@
  *   • Theme toggle (dark/light/cybersecurity)
  *   • Language toggle (EN ↔ VI)
  *   • Contact Us modal
+ *   • Account Role modal & display
  * -----------------------------------------------------------------------------
  */
 (function () {
@@ -15,6 +16,7 @@
     initSidebarAndLauncher();
     initTheme();
     initLang();
+    initAccountRole();
   }
 
   // ─── Sidebar & Launcher ──────────────────────────────────────────────────
@@ -230,6 +232,96 @@
       window.setState({ lang: next });
       window.__i18n__.apply(next);
     });
+  }
+
+  // ─── Account Role ────────────────────────────────────────────────────────
+  function initAccountRole() {
+    var accBtn = document.getElementById('account-toggle');
+    var roleModal = document.getElementById('role-modal');
+    var roleLabelSpan = document.getElementById('account-role-label');
+    var signoutBtn = document.getElementById('role-signout');
+    
+    if (!accBtn || !roleModal) return;
+
+    // Load saved role and apply to UI
+    var currentRole = window.storage.get('accountRole', null);
+    function applyRole(role) {
+      var roleKey = '';
+      if (role === 'Analyst') roleKey = 'roleAnalyst';
+      if (role === 'Manager') roleKey = 'roleManager';
+      if (role === 'System Admin') roleKey = 'roleAdmin';
+
+      if (roleLabelSpan) {
+        var displayRole = role ? window.__i18n__.t(roleKey) : '';
+        roleLabelSpan.textContent = displayRole;
+        roleLabelSpan.style.display = role ? 'inline-block' : 'none';
+      }
+      if (accBtn) {
+        // Update accessible label
+        var a11yRole = role ? window.__i18n__.t(roleKey) : window.__i18n__.t('profile');
+        var label = role ? window.__i18n__.t('profile') + ': ' + a11yRole : window.__i18n__.t('profile');
+        accBtn.setAttribute('aria-label', label);
+        accBtn.setAttribute('title', label);
+      }
+    }
+    
+    applyRole(currentRole);
+
+    // Modal open
+    accBtn.addEventListener('click', function() {
+      // Highlight currently active role (if any)
+      var btns = roleModal.querySelectorAll('.role-opt');
+      btns.forEach(function(b) {
+        if (b.dataset.role === currentRole) b.classList.add('active');
+        else b.classList.remove('active');
+      });
+      
+      // Show/hide signout based on whether a role is set
+      if (signoutBtn) signoutBtn.style.display = currentRole ? 'block' : 'none';
+
+      roleModal.classList.add('visible');
+      roleModal.setAttribute('aria-hidden', 'false');
+    });
+
+    // Modal close
+    roleModal.addEventListener('click', function(e) {
+      if (e.target === roleModal) {
+        roleModal.classList.remove('visible');
+        roleModal.setAttribute('aria-hidden', 'true');
+      }
+    });
+
+    var cancelBtn = document.getElementById('role-cancel');
+    if (cancelBtn) {
+      cancelBtn.addEventListener('click', function() {
+        roleModal.classList.remove('visible');
+        roleModal.setAttribute('aria-hidden', 'true');
+      });
+    }
+
+    // Role selection
+    var roleBtns = roleModal.querySelectorAll('.role-opt');
+    roleBtns.forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var role = this.dataset.role;
+        currentRole = role;
+        window.storage.set('accountRole', role);
+        applyRole(role);
+        roleModal.classList.remove('visible');
+        roleModal.setAttribute('aria-hidden', 'true');
+      });
+    });
+
+    // Sign out
+    if (signoutBtn) {
+      signoutBtn.addEventListener('click', function() {
+        currentRole = null;
+        window.storage.remove('accountRole');
+        applyRole(null);
+        roleModal.classList.remove('visible');
+        roleModal.setAttribute('aria-hidden', 'true');
+      });
+    }
   }
 
   window.initNav = initNav;

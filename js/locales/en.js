@@ -88,7 +88,7 @@ window.__LOCALES__.en = {
   showColA: "🙈 Col A",
   showColB: "🙈 Col B",
 
-  // Buttons
+  // Other Buttons (Alphabetical)
   account: "Account",
   addList: "Create New",
   addRow: "+ Add Row",
@@ -99,19 +99,25 @@ window.__LOCALES__.en = {
   expList: "Export file",
   exportList: "Export deck",
   forward: "Forward",
-  importList: "Import deck",
   impList: "Import file",
+  importList: "Import deck",
   loop: "Loop",
   moreOptions: "More Options",
   newList: "Create New",
   playBackMenu: "Play Back Menu",
+  profile: "Profile",
   read: "Read",
-  renameList: "Rename deck",
   rename: "Rename file",
+  renameList: "Rename deck",
   rewind: "Rewind",
+  roleAdmin: "System Admin",
+  roleAnalyst: "Analyst",
+  roleManager: "Manager",
+  selectRole: "Select Role",
+  signOut: "Sign Out",
   sort: "Sort",
   stop: "Stop",
-  theme: "Theme",  
+  theme: "Theme",
 
   // Modal
   confirmTitle: "Confirm",
