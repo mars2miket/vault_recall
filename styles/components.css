@@ -25,6 +25,12 @@
 .icon-btn:hover  { transform: scale(1.08); }
 .icon-btn:active { transform: scale(0.95); }
 
+.icon-btn:hover,
+.account-btn:hover {
+  border-color: #6366F1;
+  color: #6366F1;
+}
+
 #sidebar-toggle:hover,
 #lang-toggle:hover,
 #account-toggle:hover {
@@ -1341,7 +1347,7 @@ input:focus {
 /* Account Pill Styling */
 .account-btn {
   width: auto !important; /* Allow button to expand */
-  padding: 4px 10px;
+  padding: 4px 6px;
   border-radius: 6px;
 }
 
@@ -1370,3 +1376,14 @@ input:focus {
   border-color: #6366F1;
   color: #6366F1;
 }
+
+.modal-btn:hover {
+  border-color: #6366F1;
+  color: #6366F1;
+}
+
+/* Optional: If you have a 'confirm' or primary button that should stay filled */
+.modal-btn.confirm:hover {
+  opacity: 0.8; /* or slightly darken the background */
+}
+

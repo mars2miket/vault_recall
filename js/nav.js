@@ -4,7 +4,7 @@
  * Wires up:
  *   • Sidebar toggle (hamburger) and Launcher modal
  *   • Theme toggle (dark/light/cybersecurity)
- *   • Language toggle (EN ↔ VI)
+ *   • Language toggle modal (EN, VI, FR)
  *   • Contact Us modal
  *   • Account Role modal & display
  * -----------------------------------------------------------------------------
@@ -219,18 +219,58 @@
   // ─── Language ────────────────────────────────────────────────────────────
   function initLang() {
     var btn = document.getElementById('lang-toggle');
-    if (!btn || !window.__i18n__) return;
+    var label = document.getElementById('lang-toggle-label');
+    var modal = document.getElementById('lang-modal');
+    var cancelBtn = document.getElementById('lang-cancel');
+    
+    if (!btn || !window.__i18n__ || !modal) return;
 
     var codes = window.__i18n__.codes;
     var current = window.getState().lang || codes[0];
+    
+    // Apply initial language
     window.__i18n__.apply(current);
+    if (label) label.textContent = current.toUpperCase();
 
-    btn.addEventListener('click', function () {
-      var idx = codes.indexOf(window.__i18n__.get());
-      var next = codes[(idx + 1) % codes.length];
-      
-      window.setState({ lang: next });
-      window.__i18n__.apply(next);
+    // Open modal
+    btn.addEventListener('click', function() {
+      // Highlight currently active language
+      var btns = modal.querySelectorAll('.lang-opt');
+      btns.forEach(function(b) {
+        if (b.dataset.lang === current) b.classList.add('active');
+        else b.classList.remove('active');
+      });
+
+      modal.classList.add('visible');
+      modal.setAttribute('aria-hidden', 'false');
+    });
+
+    // Close modal (Cancel button or clicking background)
+    function closeModal() {
+      modal.classList.remove('visible');
+      modal.setAttribute('aria-hidden', 'true');
+    }
+    if (cancelBtn) cancelBtn.addEventListener('click', closeModal);
+    modal.addEventListener('click', function(e) {
+      if (e.target === modal) closeModal();
+    });
+
+    // Language selection
+    var langBtns = modal.querySelectorAll('.lang-opt');
+    langBtns.forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var lang = this.dataset.lang;
+        current = lang;
+        
+        window.setState({ lang: lang });
+        window.__i18n__.apply(lang);
+        if (label) label.textContent = lang.toUpperCase();
+        
+        // Trigger a custom event so other parts of the app know the language changed
+        window.dispatchEvent(new Event('language-changed'));
+        
+        closeModal();
+      });
     });
   }
 
@@ -245,6 +285,7 @@
 
     // Load saved role and apply to UI
     var currentRole = window.storage.get('accountRole', null);
+    
     function applyRole(role) {
       var roleKey = '';
       if (role === 'Analyst') roleKey = 'roleAnalyst';
@@ -312,7 +353,7 @@
       });
     });
 
-        // Sign out
+    // Sign out
     if (signoutBtn) {
       signoutBtn.addEventListener('click', function() {
         currentRole = null;
@@ -324,10 +365,8 @@
     }
 
     // Update label when language changes
-    window.subscribe(function(state, prev) {
-      if (state.lang !== prev.lang) {
-        applyRole(currentRole);
-      }
+    window.addEventListener('language-changed', function() {
+      applyRole(currentRole);
     });
   }
 

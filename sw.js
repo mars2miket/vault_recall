@@ -1,10 +1,10 @@
 // Bump CACHE when you want to force-refresh all cached files.
-var CACHE = 'vault-recall-v6';
+var CACHE = 'vault-recall-v1.7';
 var FILES = [
   './', 'index.html', 'manifest.json',
   'styles/base-layout.css', 'styles/components.css',
   'styles/responsive.css', 'styles/qbank.css',
-  'js/storage.js', 'js/state.js', 'js/locales/en.js', 'js/locales/vi.js',
+  'js/storage.js', 'js/state.js', 'js/locales/en.js', 'js/locales/vi.js', 'js/locales/fr.js',
   'js/i18n.js', 'js/nav.js', 'js/onboarding.js', 'js/grid.js', 'js/sorting.js',
   'js/modal.js', 'js/lists.js', 'js/notes.js', 'js/speech.js',
   'js/exam.js', 'js/analytics.js', 'js/workspace-toggle.js', 'js/main.js',
