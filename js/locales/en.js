@@ -44,6 +44,37 @@ window.__LOCALES__.en = {
   dashboard: "Testing Analysis",
   questionBank: "Create Question Bank",
 
+  // Contact Modal
+  contactTitle: "Contact Info",
+  placeholderFirstName: "Legal First Name",
+  placeholderLastName: "Legal Last Name",
+  placeholderEmail: "Enter your E-Mail ID",
+  placeholderEmailConfirm: "Re-Enter your E-Mail ID",
+  genderSelect: "Gender Assigned at Birth",
+  genderFemale: "Female",
+  genderMale: "Male",
+  genderIntersex: "Intersex",
+  genderPrivate: "Prefer not to say",
+  countrySelect: "-- Select Country --",
+  countryUS: "United States",
+  countryVN: "Vietnam",
+  countryIN: "India",
+  placeholderMobile: "Mobile No",
+  privacyAgree: "I agree to the ",
+  privacyPolicyLink: "Privacy Policy",
+
+  // Privacy Workspace
+  privacyLastUpdated: "Last updated: November 2026",
+  privacySec1Title: "1. Information We Collect",
+  privacySec1Body: "We only collect your name and email address when you voluntarily submit them through our contact form.",
+  privacySec2Title: "2. How We Use Your Information",
+  privacySec2Body: "We use this information strictly to contact you regarding your inquiry about our institute. We do not use your data for unrelated marketing.",
+  privacySec3Title: "3. Data Sharing and Disclosure",
+  privacySec3Body: "We do not sell, trade, or share your personal information with third parties.",
+  privacySec4Title: "4. Data Security",
+  privacySec4Body: "We implement reasonable security measures to protect your information from unauthorized access.",
+  privacySec5Body: "If you have questions about this policy or wish to have your information removed from our system, please contact us at ",
+
   // Footer
   timer: "Timer",
   resetTimer: "Reset",

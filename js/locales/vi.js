@@ -44,6 +44,37 @@ window.__LOCALES__.vi = {
   dashboard: "Bảng điều khiển",
   questionBank: "Tạo ngân hàng câu hỏi",
 
+  // Contact Modal
+  contactTitle: "Thông tin liên hệ",
+  placeholderFirstName: "Tên (theo giấy tờ)",
+  placeholderLastName: "Họ (theo giấy tờ)",
+  placeholderEmail: "Nhập Địa chỉ Email",
+  placeholderEmailConfirm: "Nhập lại Địa chỉ Email",
+  genderSelect: "Giới tính khai sinh",
+  genderFemale: "Nữ",
+  genderMale: "Nam",
+  genderIntersex: "Liên giới tính",
+  genderPrivate: "Không muốn tiết lộ",
+  countrySelect: "-- Chọn quốc gia --",
+  countryUS: "Hoa Kỳ",
+  countryVN: "Việt Nam",
+  countryIN: "Ấn Độ",
+  placeholderMobile: "Số điện thoại di động",
+  privacyAgree: "Tôi đồng ý với ",
+  privacyPolicyLink: "Chính sách bảo mật",
+
+  // Privacy Workspace
+  privacyLastUpdated: "Cập nhật lần cuối: Tháng 11 năm 2026",
+  privacySec1Title: "1. Thông tin chúng tôi thu thập",
+  privacySec1Body: "Chúng tôi chỉ thu thập tên và địa chỉ email của bạn khi bạn tự nguyện gửi qua biểu mẫu liên hệ của chúng tôi.",
+  privacySec2Title: "2. Cách chúng tôi sử dụng thông tin của bạn",
+  privacySec2Body: "Chúng tôi sử dụng thông tin này hoàn toàn để liên hệ với bạn liên quan đến thắc mắc của bạn về học viện của chúng tôi. Chúng tôi không sử dụng dữ liệu của bạn cho các hoạt động tiếp thị không liên quan.",
+  privacySec3Title: "3. Chia sẻ và tiết lộ dữ liệu",
+  privacySec3Body: "Chúng tôi không bán, trao đổi hoặc chia sẻ thông tin cá nhân của bạn với bên thứ ba.",
+  privacySec4Title: "4. Bảo mật dữ liệu",
+  privacySec4Body: "Chúng tôi thực hiện các biện pháp bảo mật hợp lý để bảo vệ thông tin của bạn khỏi bị truy cập trái phép.",
+  privacySec5Body: "Nếu bạn có thắc mắc về chính sách này hoặc muốn xóa thông tin của mình khỏi hệ thống của chúng tôi, vui lòng liên hệ với chúng tôi tại ",
+
   // Footer
   timer: "Đồng hồ",
   resetTimer: "Đặt lại",
