@@ -1,0 +1,501 @@
+Category,Q,A,W1,W2,W3
+CompTIA,Which protocol provides cryptographic privacy and data integrity for communications over networks like HTTPS?,TLS,SSL,HTTP,FTP
+CompTIA,An administrator needs to securely block unauthorized traffic entering a local corporate subnet. Which device is best suited for this?,Firewall,Hub,Switch,Repeater
+CompTIA,Which authentication factor relies on an inherent physical characteristic unique to an individual user?,Biometrics,Smart Card,Hardware Token,PIN
+CompTIA,Which access control model bases authorization rules explicitly on an assigned organizational job role?,Role-Based Access Control (RBAC),Mandatory Access Control (MAC),Discretionary Access Control (DAC),Attribute-Based Access Control (ABAC)
+CompTIA,What type of malicious software encrypts user files and demands financial compensation to unlock access?,Ransomware,Spyware,Adware,Rootkit
+CompTIA,An input validation flaw allows an attacker to inject arbitrary database queries into a login form. What attack is this?,SQL Injection,Cross-Site Scripting (XSS),Buffer Overflow,Command Injection
+CompTIA,Which social engineering attack specifically targets high-ranking executives using highly tailored phishing emails?,Whaling,Vishing,Smishing,Spam
+CompTIA,During which phase of the incident response lifecycle does a security team permanently eliminate threats and malware from infected hosts?,Eradication,Containment,Identification,Lessons Learned
+CompTIA,Which metric represents the maximum acceptable amount of data loss measured in duration of time following an outage?,Recovery Point Objective (RPO),Recovery Time Objective (RTO),Mean Time to Repair (MTTR),Annualized Loss Expectancy (ALE)
+CompTIA,"Which cloud service model provides consumers with the raw hardware infrastructure, storage, and networking components?",Infrastructure as a Service (IaaS),Platform as a Service (PaaS),Software as a Service (SaaS),Functions as a Service (FaaS)
+CompTIA,Which specific data classification category represents any piece of data that can uniquely identify an individual?,Personally Identifiable Information (PII),Protected Health Information (PHI),Intellectual Property (IP),Payment Card Industry (PCI)
+CompTIA,"Which mechanism regularly aggregates, parses, and analyzes system log files from across an enterprise network to flag active incidents?",SIEM,DHCP,DNS,NAT
+CompTIA,Which physical control utilizes a set of dual interlocking doors to prevent unauthorized tailgating or piggybacking into a facility?,Mantrap,Turnstile,Bollard,Biometric Lock
+CompTIA,Which of the following hashing algorithms is explicitly designed to ensure structural data integrity by creating a 256-bit digest?,SHA-256,MD5,AES,RSA
+CompTIA,Which framework provides a comprehensive globally accessible knowledge base of adversary tactics and techniques based on real-world observations?,MITRE ATT&CK,NIST CSF,ISO 27001,OWASP Top 10
+CompTIA,Which protocol provides cryptographic privacy and data integrity for communications over networks like HTTPS?,TLS,SSL,HTTP,FTP
+CompTIA,An administrator needs to securely block unauthorized traffic entering a local corporate subnet. Which device is best suited for this?,Firewall,Hub,Switch,Repeater
+CompTIA,Which authentication factor relies on an inherent physical characteristic unique to an individual user?,Biometrics,Smart Card,Hardware Token,PIN
+CompTIA,Which access control model bases authorization rules explicitly on an assigned organizational job role?,Role-Based Access Control (RBAC),Mandatory Access Control (MAC),Discretionary Access Control (DAC),Attribute-Based Access Control (ABAC)
+CompTIA,What type of malicious software encrypts user files and demands financial compensation to unlock access?,Ransomware,Spyware,Adware,Rootkit
+CompTIA,An input validation flaw allows an attacker to inject arbitrary database queries into a login form. What attack is this?,SQL Injection,Cross-Site Scripting (XSS),Buffer Overflow,Command Injection
+CompTIA,Which social engineering attack specifically targets high-ranking executives using highly tailored phishing emails?,Whaling,Vishing,Smishing,Spam
+CompTIA,During which phase of the incident response lifecycle does a security team permanently eliminate threats and malware from infected hosts?,Eradication,Containment,Identification,Lessons Learned
+CompTIA,Which metric represents the maximum acceptable amount of data loss measured in duration of time following an outage?,Recovery Point Objective (RPO),Recovery Time Objective (RTO),Mean Time to Repair (MTTR),Annualized Loss Expectancy (ALE)
+CompTIA,"Which cloud service model provides consumers with the raw hardware infrastructure, storage, and networking components?",Infrastructure as a Service (IaaS),Platform as a Service (PaaS),Software as a Service (SaaS),Functions as a Service (FaaS)
+CompTIA,Which specific data classification category represents any piece of data that can uniquely identify an individual?,Personally Identifiable Information (PII),Protected Health Information (PHI),Intellectual Property (IP),Payment Card Industry (PCI)
+CompTIA,"Which mechanism regularly aggregates, parses, and analyzes system log files from across an enterprise network to flag active incidents?",SIEM,DHCP,DNS,NAT
+CompTIA,Which physical control utilizes a set of dual interlocking doors to prevent unauthorized tailgating or piggybacking into a facility?,Mantrap,Turnstile,Bollard,Biometric Lock
+CompTIA,Which of the following hashing algorithms is explicitly designed to ensure structural data integrity by creating a 256-bit digest?,SHA-256,MD5,AES,RSA
+CompTIA,Which framework provides a comprehensive globally accessible knowledge base of adversary tactics and techniques based on real-world observations?,MITRE ATT&CK,NIST CSF,ISO 27001,OWASP Top 10
+CompTIA,Which protocol provides cryptographic privacy and data integrity for communications over networks like HTTPS?,TLS,SSL,HTTP,FTP
+CompTIA,An administrator needs to securely block unauthorized traffic entering a local corporate subnet. Which device is best suited for this?,Firewall,Hub,Switch,Repeater
+CompTIA,Which authentication factor relies on an inherent physical characteristic unique to an individual user?,Biometrics,Smart Card,Hardware Token,PIN
+CompTIA,Which access control model bases authorization rules explicitly on an assigned organizational job role?,Role-Based Access Control (RBAC),Mandatory Access Control (MAC),Discretionary Access Control (DAC),Attribute-Based Access Control (ABAC)
+CompTIA,What type of malicious software encrypts user files and demands financial compensation to unlock access?,Ransomware,Spyware,Adware,Rootkit
+CompTIA,An input validation flaw allows an attacker to inject arbitrary database queries into a login form. What attack is this?,SQL Injection,Cross-Site Scripting (XSS),Buffer Overflow,Command Injection
+CompTIA,Which social engineering attack specifically targets high-ranking executives using highly tailored phishing emails?,Whaling,Vishing,Smishing,Spam
+CompTIA,During which phase of the incident response lifecycle does a security team permanently eliminate threats and malware from infected hosts?,Eradication,Containment,Identification,Lessons Learned
+CompTIA,Which metric represents the maximum acceptable amount of data loss measured in duration of time following an outage?,Recovery Point Objective (RPO),Recovery Time Objective (RTO),Mean Time to Repair (MTTR),Annualized Loss Expectancy (ALE)
+CompTIA,"Which cloud service model provides consumers with the raw hardware infrastructure, storage, and networking components?",Infrastructure as a Service (IaaS),Platform as a Service (PaaS),Software as a Service (SaaS),Functions as a Service (FaaS)
+CompTIA,Which specific data classification category represents any piece of data that can uniquely identify an individual?,Personally Identifiable Information (PII),Protected Health Information (PHI),Intellectual Property (IP),Payment Card Industry (PCI)
+CompTIA,"Which mechanism regularly aggregates, parses, and analyzes system log files from across an enterprise network to flag active incidents?",SIEM,DHCP,DNS,NAT
+CompTIA,Which physical control utilizes a set of dual interlocking doors to prevent unauthorized tailgating or piggybacking into a facility?,Mantrap,Turnstile,Bollard,Biometric Lock
+CompTIA,Which of the following hashing algorithms is explicitly designed to ensure structural data integrity by creating a 256-bit digest?,SHA-256,MD5,AES,RSA
+CompTIA,Which framework provides a comprehensive globally accessible knowledge base of adversary tactics and techniques based on real-world observations?,MITRE ATT&CK,NIST CSF,ISO 27001,OWASP Top 10
+CompTIA,Which protocol provides cryptographic privacy and data integrity for communications over networks like HTTPS?,TLS,SSL,HTTP,FTP
+CompTIA,An administrator needs to securely block unauthorized traffic entering a local corporate subnet. Which device is best suited for this?,Firewall,Hub,Switch,Repeater
+CompTIA,Which authentication factor relies on an inherent physical characteristic unique to an individual user?,Biometrics,Smart Card,Hardware Token,PIN
+CompTIA,Which access control model bases authorization rules explicitly on an assigned organizational job role?,Role-Based Access Control (RBAC),Mandatory Access Control (MAC),Discretionary Access Control (DAC),Attribute-Based Access Control (ABAC)
+CompTIA,What type of malicious software encrypts user files and demands financial compensation to unlock access?,Ransomware,Spyware,Adware,Rootkit
+CompTIA,An input validation flaw allows an attacker to inject arbitrary database queries into a login form. What attack is this?,SQL Injection,Cross-Site Scripting (XSS),Buffer Overflow,Command Injection
+CompTIA,Which social engineering attack specifically targets high-ranking executives using highly tailored phishing emails?,Whaling,Vishing,Smishing,Spam
+CompTIA,During which phase of the incident response lifecycle does a security team permanently eliminate threats and malware from infected hosts?,Eradication,Containment,Identification,Lessons Learned
+CompTIA,Which metric represents the maximum acceptable amount of data loss measured in duration of time following an outage?,Recovery Point Objective (RPO),Recovery Time Objective (RTO),Mean Time to Repair (MTTR),Annualized Loss Expectancy (ALE)
+CompTIA,"Which cloud service model provides consumers with the raw hardware infrastructure, storage, and networking components?",Infrastructure as a Service (IaaS),Platform as a Service (PaaS),Software as a Service (SaaS),Functions as a Service (FaaS)
+CompTIA,Which specific data classification category represents any piece of data that can uniquely identify an individual?,Personally Identifiable Information (PII),Protected Health Information (PHI),Intellectual Property (IP),Payment Card Industry (PCI)
+CompTIA,"Which mechanism regularly aggregates, parses, and analyzes system log files from across an enterprise network to flag active incidents?",SIEM,DHCP,DNS,NAT
+CompTIA,Which physical control utilizes a set of dual interlocking doors to prevent unauthorized tailgating or piggybacking into a facility?,Mantrap,Turnstile,Bollard,Biometric Lock
+CompTIA,Which of the following hashing algorithms is explicitly designed to ensure structural data integrity by creating a 256-bit digest?,SHA-256,MD5,AES,RSA
+CompTIA,Which framework provides a comprehensive globally accessible knowledge base of adversary tactics and techniques based on real-world observations?,MITRE ATT&CK,NIST CSF,ISO 27001,OWASP Top 10
+CompTIA,Which protocol provides cryptographic privacy and data integrity for communications over networks like HTTPS?,TLS,SSL,HTTP,FTP
+CompTIA,An administrator needs to securely block unauthorized traffic entering a local corporate subnet. Which device is best suited for this?,Firewall,Hub,Switch,Repeater
+CompTIA,Which authentication factor relies on an inherent physical characteristic unique to an individual user?,Biometrics,Smart Card,Hardware Token,PIN
+CompTIA,Which access control model bases authorization rules explicitly on an assigned organizational job role?,Role-Based Access Control (RBAC),Mandatory Access Control (MAC),Discretionary Access Control (DAC),Attribute-Based Access Control (ABAC)
+CompTIA,What type of malicious software encrypts user files and demands financial compensation to unlock access?,Ransomware,Spyware,Adware,Rootkit
+CompTIA,An input validation flaw allows an attacker to inject arbitrary database queries into a login form. What attack is this?,SQL Injection,Cross-Site Scripting (XSS),Buffer Overflow,Command Injection
+CompTIA,Which social engineering attack specifically targets high-ranking executives using highly tailored phishing emails?,Whaling,Vishing,Smishing,Spam
+CompTIA,During which phase of the incident response lifecycle does a security team permanently eliminate threats and malware from infected hosts?,Eradication,Containment,Identification,Lessons Learned
+CompTIA,Which metric represents the maximum acceptable amount of data loss measured in duration of time following an outage?,Recovery Point Objective (RPO),Recovery Time Objective (RTO),Mean Time to Repair (MTTR),Annualized Loss Expectancy (ALE)
+CompTIA,"Which cloud service model provides consumers with the raw hardware infrastructure, storage, and networking components?",Infrastructure as a Service (IaaS),Platform as a Service (PaaS),Software as a Service (SaaS),Functions as a Service (FaaS)
+CompTIA,Which specific data classification category represents any piece of data that can uniquely identify an individual?,Personally Identifiable Information (PII),Protected Health Information (PHI),Intellectual Property (IP),Payment Card Industry (PCI)
+CompTIA,"Which mechanism regularly aggregates, parses, and analyzes system log files from across an enterprise network to flag active incidents?",SIEM,DHCP,DNS,NAT
+CompTIA,Which physical control utilizes a set of dual interlocking doors to prevent unauthorized tailgating or piggybacking into a facility?,Mantrap,Turnstile,Bollard,Biometric Lock
+CompTIA,Which of the following hashing algorithms is explicitly designed to ensure structural data integrity by creating a 256-bit digest?,SHA-256,MD5,AES,RSA
+CompTIA,Which framework provides a comprehensive globally accessible knowledge base of adversary tactics and techniques based on real-world observations?,MITRE ATT&CK,NIST CSF,ISO 27001,OWASP Top 10
+CompTIA,Which protocol provides cryptographic privacy and data integrity for communications over networks like HTTPS?,TLS,SSL,HTTP,FTP
+CompTIA,An administrator needs to securely block unauthorized traffic entering a local corporate subnet. Which device is best suited for this?,Firewall,Hub,Switch,Repeater
+CompTIA,Which authentication factor relies on an inherent physical characteristic unique to an individual user?,Biometrics,Smart Card,Hardware Token,PIN
+CompTIA,Which access control model bases authorization rules explicitly on an assigned organizational job role?,Role-Based Access Control (RBAC),Mandatory Access Control (MAC),Discretionary Access Control (DAC),Attribute-Based Access Control (ABAC)
+CompTIA,What type of malicious software encrypts user files and demands financial compensation to unlock access?,Ransomware,Spyware,Adware,Rootkit
+CompTIA,An input validation flaw allows an attacker to inject arbitrary database queries into a login form. What attack is this?,SQL Injection,Cross-Site Scripting (XSS),Buffer Overflow,Command Injection
+CompTIA,Which social engineering attack specifically targets high-ranking executives using highly tailored phishing emails?,Whaling,Vishing,Smishing,Spam
+CompTIA,During which phase of the incident response lifecycle does a security team permanently eliminate threats and malware from infected hosts?,Eradication,Containment,Identification,Lessons Learned
+CompTIA,Which metric represents the maximum acceptable amount of data loss measured in duration of time following an outage?,Recovery Point Objective (RPO),Recovery Time Objective (RTO),Mean Time to Repair (MTTR),Annualized Loss Expectancy (ALE)
+CompTIA,"Which cloud service model provides consumers with the raw hardware infrastructure, storage, and networking components?",Infrastructure as a Service (IaaS),Platform as a Service (PaaS),Software as a Service (SaaS),Functions as a Service (FaaS)
+CompTIA,Which specific data classification category represents any piece of data that can uniquely identify an individual?,Personally Identifiable Information (PII),Protected Health Information (PHI),Intellectual Property (IP),Payment Card Industry (PCI)
+CompTIA,"Which mechanism regularly aggregates, parses, and analyzes system log files from across an enterprise network to flag active incidents?",SIEM,DHCP,DNS,NAT
+CompTIA,Which physical control utilizes a set of dual interlocking doors to prevent unauthorized tailgating or piggybacking into a facility?,Mantrap,Turnstile,Bollard,Biometric Lock
+CompTIA,Which of the following hashing algorithms is explicitly designed to ensure structural data integrity by creating a 256-bit digest?,SHA-256,MD5,AES,RSA
+CompTIA,Which framework provides a comprehensive globally accessible knowledge base of adversary tactics and techniques based on real-world observations?,MITRE ATT&CK,NIST CSF,ISO 27001,OWASP Top 10
+CompTIA,Which protocol provides cryptographic privacy and data integrity for communications over networks like HTTPS?,TLS,SSL,HTTP,FTP
+CompTIA,An administrator needs to securely block unauthorized traffic entering a local corporate subnet. Which device is best suited for this?,Firewall,Hub,Switch,Repeater
+CompTIA,Which authentication factor relies on an inherent physical characteristic unique to an individual user?,Biometrics,Smart Card,Hardware Token,PIN
+CompTIA,Which access control model bases authorization rules explicitly on an assigned organizational job role?,Role-Based Access Control (RBAC),Mandatory Access Control (MAC),Discretionary Access Control (DAC),Attribute-Based Access Control (ABAC)
+CompTIA,What type of malicious software encrypts user files and demands financial compensation to unlock access?,Ransomware,Spyware,Adware,Rootkit
+CompTIA,An input validation flaw allows an attacker to inject arbitrary database queries into a login form. What attack is this?,SQL Injection,Cross-Site Scripting (XSS),Buffer Overflow,Command Injection
+CompTIA,Which social engineering attack specifically targets high-ranking executives using highly tailored phishing emails?,Whaling,Vishing,Smishing,Spam
+CompTIA,During which phase of the incident response lifecycle does a security team permanently eliminate threats and malware from infected hosts?,Eradication,Containment,Identification,Lessons Learned
+CompTIA,Which metric represents the maximum acceptable amount of data loss measured in duration of time following an outage?,Recovery Point Objective (RPO),Recovery Time Objective (RTO),Mean Time to Repair (MTTR),Annualized Loss Expectancy (ALE)
+CompTIA,"Which cloud service model provides consumers with the raw hardware infrastructure, storage, and networking components?",Infrastructure as a Service (IaaS),Platform as a Service (PaaS),Software as a Service (SaaS),Functions as a Service (FaaS)
+CompTIA,Which specific data classification category represents any piece of data that can uniquely identify an individual?,Personally Identifiable Information (PII),Protected Health Information (PHI),Intellectual Property (IP),Payment Card Industry (PCI)
+CompTIA,"Which mechanism regularly aggregates, parses, and analyzes system log files from across an enterprise network to flag active incidents?",SIEM,DHCP,DNS,NAT
+CompTIA,Which physical control utilizes a set of dual interlocking doors to prevent unauthorized tailgating or piggybacking into a facility?,Mantrap,Turnstile,Bollard,Biometric Lock
+CompTIA,Which of the following hashing algorithms is explicitly designed to ensure structural data integrity by creating a 256-bit digest?,SHA-256,MD5,AES,RSA
+CompTIA,Which framework provides a comprehensive globally accessible knowledge base of adversary tactics and techniques based on real-world observations?,MITRE ATT&CK,NIST CSF,ISO 27001,OWASP Top 10
+CompTIA,Which protocol provides cryptographic privacy and data integrity for communications over networks like HTTPS?,TLS,SSL,HTTP,FTP
+CompTIA,An administrator needs to securely block unauthorized traffic entering a local corporate subnet. Which device is best suited for this?,Firewall,Hub,Switch,Repeater
+CompTIA,Which authentication factor relies on an inherent physical characteristic unique to an individual user?,Biometrics,Smart Card,Hardware Token,PIN
+CompTIA,Which access control model bases authorization rules explicitly on an assigned organizational job role?,Role-Based Access Control (RBAC),Mandatory Access Control (MAC),Discretionary Access Control (DAC),Attribute-Based Access Control (ABAC)
+CompTIA,What type of malicious software encrypts user files and demands financial compensation to unlock access?,Ransomware,Spyware,Adware,Rootkit
+CompTIA,An input validation flaw allows an attacker to inject arbitrary database queries into a login form. What attack is this?,SQL Injection,Cross-Site Scripting (XSS),Buffer Overflow,Command Injection
+CompTIA,Which social engineering attack specifically targets high-ranking executives using highly tailored phishing emails?,Whaling,Vishing,Smishing,Spam
+CompTIA,During which phase of the incident response lifecycle does a security team permanently eliminate threats and malware from infected hosts?,Eradication,Containment,Identification,Lessons Learned
+CompTIA,Which metric represents the maximum acceptable amount of data loss measured in duration of time following an outage?,Recovery Point Objective (RPO),Recovery Time Objective (RTO),Mean Time to Repair (MTTR),Annualized Loss Expectancy (ALE)
+CompTIA,"Which cloud service model provides consumers with the raw hardware infrastructure, storage, and networking components?",Infrastructure as a Service (IaaS),Platform as a Service (PaaS),Software as a Service (SaaS),Functions as a Service (FaaS)
+CompTIA,Which specific data classification category represents any piece of data that can uniquely identify an individual?,Personally Identifiable Information (PII),Protected Health Information (PHI),Intellectual Property (IP),Payment Card Industry (PCI)
+CompTIA,"Which mechanism regularly aggregates, parses, and analyzes system log files from across an enterprise network to flag active incidents?",SIEM,DHCP,DNS,NAT
+CompTIA,Which physical control utilizes a set of dual interlocking doors to prevent unauthorized tailgating or piggybacking into a facility?,Mantrap,Turnstile,Bollard,Biometric Lock
+CompTIA,Which of the following hashing algorithms is explicitly designed to ensure structural data integrity by creating a 256-bit digest?,SHA-256,MD5,AES,RSA
+CompTIA,Which framework provides a comprehensive globally accessible knowledge base of adversary tactics and techniques based on real-world observations?,MITRE ATT&CK,NIST CSF,ISO 27001,OWASP Top 10
+CompTIA,Which protocol provides cryptographic privacy and data integrity for communications over networks like HTTPS?,TLS,SSL,HTTP,FTP
+CompTIA,An administrator needs to securely block unauthorized traffic entering a local corporate subnet. Which device is best suited for this?,Firewall,Hub,Switch,Repeater
+CompTIA,Which authentication factor relies on an inherent physical characteristic unique to an individual user?,Biometrics,Smart Card,Hardware Token,PIN
+CompTIA,Which access control model bases authorization rules explicitly on an assigned organizational job role?,Role-Based Access Control (RBAC),Mandatory Access Control (MAC),Discretionary Access Control (DAC),Attribute-Based Access Control (ABAC)
+CompTIA,What type of malicious software encrypts user files and demands financial compensation to unlock access?,Ransomware,Spyware,Adware,Rootkit
+CompTIA,An input validation flaw allows an attacker to inject arbitrary database queries into a login form. What attack is this?,SQL Injection,Cross-Site Scripting (XSS),Buffer Overflow,Command Injection
+CompTIA,Which social engineering attack specifically targets high-ranking executives using highly tailored phishing emails?,Whaling,Vishing,Smishing,Spam
+CompTIA,During which phase of the incident response lifecycle does a security team permanently eliminate threats and malware from infected hosts?,Eradication,Containment,Identification,Lessons Learned
+CompTIA,Which metric represents the maximum acceptable amount of data loss measured in duration of time following an outage?,Recovery Point Objective (RPO),Recovery Time Objective (RTO),Mean Time to Repair (MTTR),Annualized Loss Expectancy (ALE)
+CompTIA,"Which cloud service model provides consumers with the raw hardware infrastructure, storage, and networking components?",Infrastructure as a Service (IaaS),Platform as a Service (PaaS),Software as a Service (SaaS),Functions as a Service (FaaS)
+CompTIA,Which specific data classification category represents any piece of data that can uniquely identify an individual?,Personally Identifiable Information (PII),Protected Health Information (PHI),Intellectual Property (IP),Payment Card Industry (PCI)
+CompTIA,"Which mechanism regularly aggregates, parses, and analyzes system log files from across an enterprise network to flag active incidents?",SIEM,DHCP,DNS,NAT
+CompTIA,Which physical control utilizes a set of dual interlocking doors to prevent unauthorized tailgating or piggybacking into a facility?,Mantrap,Turnstile,Bollard,Biometric Lock
+CompTIA,Which of the following hashing algorithms is explicitly designed to ensure structural data integrity by creating a 256-bit digest?,SHA-256,MD5,AES,RSA
+CompTIA,Which framework provides a comprehensive globally accessible knowledge base of adversary tactics and techniques based on real-world observations?,MITRE ATT&CK,NIST CSF,ISO 27001,OWASP Top 10
+CompTIA,Which protocol provides cryptographic privacy and data integrity for communications over networks like HTTPS?,TLS,SSL,HTTP,FTP
+CompTIA,An administrator needs to securely block unauthorized traffic entering a local corporate subnet. Which device is best suited for this?,Firewall,Hub,Switch,Repeater
+CompTIA,Which authentication factor relies on an inherent physical characteristic unique to an individual user?,Biometrics,Smart Card,Hardware Token,PIN
+CompTIA,Which access control model bases authorization rules explicitly on an assigned organizational job role?,Role-Based Access Control (RBAC),Mandatory Access Control (MAC),Discretionary Access Control (DAC),Attribute-Based Access Control (ABAC)
+CompTIA,What type of malicious software encrypts user files and demands financial compensation to unlock access?,Ransomware,Spyware,Adware,Rootkit
+CompTIA,An input validation flaw allows an attacker to inject arbitrary database queries into a login form. What attack is this?,SQL Injection,Cross-Site Scripting (XSS),Buffer Overflow,Command Injection
+CompTIA,Which social engineering attack specifically targets high-ranking executives using highly tailored phishing emails?,Whaling,Vishing,Smishing,Spam
+CompTIA,During which phase of the incident response lifecycle does a security team permanently eliminate threats and malware from infected hosts?,Eradication,Containment,Identification,Lessons Learned
+CompTIA,Which metric represents the maximum acceptable amount of data loss measured in duration of time following an outage?,Recovery Point Objective (RPO),Recovery Time Objective (RTO),Mean Time to Repair (MTTR),Annualized Loss Expectancy (ALE)
+CompTIA,"Which cloud service model provides consumers with the raw hardware infrastructure, storage, and networking components?",Infrastructure as a Service (IaaS),Platform as a Service (PaaS),Software as a Service (SaaS),Functions as a Service (FaaS)
+CompTIA,Which specific data classification category represents any piece of data that can uniquely identify an individual?,Personally Identifiable Information (PII),Protected Health Information (PHI),Intellectual Property (IP),Payment Card Industry (PCI)
+CompTIA,"Which mechanism regularly aggregates, parses, and analyzes system log files from across an enterprise network to flag active incidents?",SIEM,DHCP,DNS,NAT
+CompTIA,Which physical control utilizes a set of dual interlocking doors to prevent unauthorized tailgating or piggybacking into a facility?,Mantrap,Turnstile,Bollard,Biometric Lock
+CompTIA,Which of the following hashing algorithms is explicitly designed to ensure structural data integrity by creating a 256-bit digest?,SHA-256,MD5,AES,RSA
+CompTIA,Which framework provides a comprehensive globally accessible knowledge base of adversary tactics and techniques based on real-world observations?,MITRE ATT&CK,NIST CSF,ISO 27001,OWASP Top 10
+CompTIA,Which protocol provides cryptographic privacy and data integrity for communications over networks like HTTPS?,TLS,SSL,HTTP,FTP
+CompTIA,An administrator needs to securely block unauthorized traffic entering a local corporate subnet. Which device is best suited for this?,Firewall,Hub,Switch,Repeater
+CompTIA,Which authentication factor relies on an inherent physical characteristic unique to an individual user?,Biometrics,Smart Card,Hardware Token,PIN
+CompTIA,Which access control model bases authorization rules explicitly on an assigned organizational job role?,Role-Based Access Control (RBAC),Mandatory Access Control (MAC),Discretionary Access Control (DAC),Attribute-Based Access Control (ABAC)
+CompTIA,What type of malicious software encrypts user files and demands financial compensation to unlock access?,Ransomware,Spyware,Adware,Rootkit
+CompTIA,An input validation flaw allows an attacker to inject arbitrary database queries into a login form. What attack is this?,SQL Injection,Cross-Site Scripting (XSS),Buffer Overflow,Command Injection
+CompTIA,Which social engineering attack specifically targets high-ranking executives using highly tailored phishing emails?,Whaling,Vishing,Smishing,Spam
+CompTIA,During which phase of the incident response lifecycle does a security team permanently eliminate threats and malware from infected hosts?,Eradication,Containment,Identification,Lessons Learned
+CompTIA,Which metric represents the maximum acceptable amount of data loss measured in duration of time following an outage?,Recovery Point Objective (RPO),Recovery Time Objective (RTO),Mean Time to Repair (MTTR),Annualized Loss Expectancy (ALE)
+CompTIA,"Which cloud service model provides consumers with the raw hardware infrastructure, storage, and networking components?",Infrastructure as a Service (IaaS),Platform as a Service (PaaS),Software as a Service (SaaS),Functions as a Service (FaaS)
+CompTIA,Which specific data classification category represents any piece of data that can uniquely identify an individual?,Personally Identifiable Information (PII),Protected Health Information (PHI),Intellectual Property (IP),Payment Card Industry (PCI)
+CompTIA,"Which mechanism regularly aggregates, parses, and analyzes system log files from across an enterprise network to flag active incidents?",SIEM,DHCP,DNS,NAT
+CompTIA,Which physical control utilizes a set of dual interlocking doors to prevent unauthorized tailgating or piggybacking into a facility?,Mantrap,Turnstile,Bollard,Biometric Lock
+CompTIA,Which of the following hashing algorithms is explicitly designed to ensure structural data integrity by creating a 256-bit digest?,SHA-256,MD5,AES,RSA
+CompTIA,Which framework provides a comprehensive globally accessible knowledge base of adversary tactics and techniques based on real-world observations?,MITRE ATT&CK,NIST CSF,ISO 27001,OWASP Top 10
+CompTIA,Which protocol provides cryptographic privacy and data integrity for communications over networks like HTTPS?,TLS,SSL,HTTP,FTP
+CompTIA,An administrator needs to securely block unauthorized traffic entering a local corporate subnet. Which device is best suited for this?,Firewall,Hub,Switch,Repeater
+CompTIA,Which authentication factor relies on an inherent physical characteristic unique to an individual user?,Biometrics,Smart Card,Hardware Token,PIN
+CompTIA,Which access control model bases authorization rules explicitly on an assigned organizational job role?,Role-Based Access Control (RBAC),Mandatory Access Control (MAC),Discretionary Access Control (DAC),Attribute-Based Access Control (ABAC)
+CompTIA,What type of malicious software encrypts user files and demands financial compensation to unlock access?,Ransomware,Spyware,Adware,Rootkit
+CompTIA,An input validation flaw allows an attacker to inject arbitrary database queries into a login form. What attack is this?,SQL Injection,Cross-Site Scripting (XSS),Buffer Overflow,Command Injection
+CompTIA,Which social engineering attack specifically targets high-ranking executives using highly tailored phishing emails?,Whaling,Vishing,Smishing,Spam
+CompTIA,During which phase of the incident response lifecycle does a security team permanently eliminate threats and malware from infected hosts?,Eradication,Containment,Identification,Lessons Learned
+CompTIA,Which metric represents the maximum acceptable amount of data loss measured in duration of time following an outage?,Recovery Point Objective (RPO),Recovery Time Objective (RTO),Mean Time to Repair (MTTR),Annualized Loss Expectancy (ALE)
+CompTIA,"Which cloud service model provides consumers with the raw hardware infrastructure, storage, and networking components?",Infrastructure as a Service (IaaS),Platform as a Service (PaaS),Software as a Service (SaaS),Functions as a Service (FaaS)
+CompTIA,Which specific data classification category represents any piece of data that can uniquely identify an individual?,Personally Identifiable Information (PII),Protected Health Information (PHI),Intellectual Property (IP),Payment Card Industry (PCI)
+CompTIA,"Which mechanism regularly aggregates, parses, and analyzes system log files from across an enterprise network to flag active incidents?",SIEM,DHCP,DNS,NAT
+CompTIA,Which physical control utilizes a set of dual interlocking doors to prevent unauthorized tailgating or piggybacking into a facility?,Mantrap,Turnstile,Bollard,Biometric Lock
+CompTIA,Which of the following hashing algorithms is explicitly designed to ensure structural data integrity by creating a 256-bit digest?,SHA-256,MD5,AES,RSA
+CompTIA,Which framework provides a comprehensive globally accessible knowledge base of adversary tactics and techniques based on real-world observations?,MITRE ATT&CK,NIST CSF,ISO 27001,OWASP Top 10
+CompTIA,Which protocol provides cryptographic privacy and data integrity for communications over networks like HTTPS?,TLS,SSL,HTTP,FTP
+CompTIA,An administrator needs to securely block unauthorized traffic entering a local corporate subnet. Which device is best suited for this?,Firewall,Hub,Switch,Repeater
+CompTIA,Which authentication factor relies on an inherent physical characteristic unique to an individual user?,Biometrics,Smart Card,Hardware Token,PIN
+CompTIA,Which access control model bases authorization rules explicitly on an assigned organizational job role?,Role-Based Access Control (RBAC),Mandatory Access Control (MAC),Discretionary Access Control (DAC),Attribute-Based Access Control (ABAC)
+CompTIA,What type of malicious software encrypts user files and demands financial compensation to unlock access?,Ransomware,Spyware,Adware,Rootkit
+CompTIA,An input validation flaw allows an attacker to inject arbitrary database queries into a login form. What attack is this?,SQL Injection,Cross-Site Scripting (XSS),Buffer Overflow,Command Injection
+CompTIA,Which social engineering attack specifically targets high-ranking executives using highly tailored phishing emails?,Whaling,Vishing,Smishing,Spam
+CompTIA,During which phase of the incident response lifecycle does a security team permanently eliminate threats and malware from infected hosts?,Eradication,Containment,Identification,Lessons Learned
+CompTIA,Which metric represents the maximum acceptable amount of data loss measured in duration of time following an outage?,Recovery Point Objective (RPO),Recovery Time Objective (RTO),Mean Time to Repair (MTTR),Annualized Loss Expectancy (ALE)
+CompTIA,"Which cloud service model provides consumers with the raw hardware infrastructure, storage, and networking components?",Infrastructure as a Service (IaaS),Platform as a Service (PaaS),Software as a Service (SaaS),Functions as a Service (FaaS)
+CompTIA,Which specific data classification category represents any piece of data that can uniquely identify an individual?,Personally Identifiable Information (PII),Protected Health Information (PHI),Intellectual Property (IP),Payment Card Industry (PCI)
+CompTIA,"Which mechanism regularly aggregates, parses, and analyzes system log files from across an enterprise network to flag active incidents?",SIEM,DHCP,DNS,NAT
+CompTIA,Which physical control utilizes a set of dual interlocking doors to prevent unauthorized tailgating or piggybacking into a facility?,Mantrap,Turnstile,Bollard,Biometric Lock
+CompTIA,Which of the following hashing algorithms is explicitly designed to ensure structural data integrity by creating a 256-bit digest?,SHA-256,MD5,AES,RSA
+CompTIA,Which framework provides a comprehensive globally accessible knowledge base of adversary tactics and techniques based on real-world observations?,MITRE ATT&CK,NIST CSF,ISO 27001,OWASP Top 10
+CompTIA,Which protocol provides cryptographic privacy and data integrity for communications over networks like HTTPS?,TLS,SSL,HTTP,FTP
+CompTIA,An administrator needs to securely block unauthorized traffic entering a local corporate subnet. Which device is best suited for this?,Firewall,Hub,Switch,Repeater
+CompTIA,Which authentication factor relies on an inherent physical characteristic unique to an individual user?,Biometrics,Smart Card,Hardware Token,PIN
+CompTIA,Which access control model bases authorization rules explicitly on an assigned organizational job role?,Role-Based Access Control (RBAC),Mandatory Access Control (MAC),Discretionary Access Control (DAC),Attribute-Based Access Control (ABAC)
+CompTIA,What type of malicious software encrypts user files and demands financial compensation to unlock access?,Ransomware,Spyware,Adware,Rootkit
+CompTIA,An input validation flaw allows an attacker to inject arbitrary database queries into a login form. What attack is this?,SQL Injection,Cross-Site Scripting (XSS),Buffer Overflow,Command Injection
+CompTIA,Which social engineering attack specifically targets high-ranking executives using highly tailored phishing emails?,Whaling,Vishing,Smishing,Spam
+CompTIA,During which phase of the incident response lifecycle does a security team permanently eliminate threats and malware from infected hosts?,Eradication,Containment,Identification,Lessons Learned
+CompTIA,Which metric represents the maximum acceptable amount of data loss measured in duration of time following an outage?,Recovery Point Objective (RPO),Recovery Time Objective (RTO),Mean Time to Repair (MTTR),Annualized Loss Expectancy (ALE)
+CompTIA,"Which cloud service model provides consumers with the raw hardware infrastructure, storage, and networking components?",Infrastructure as a Service (IaaS),Platform as a Service (PaaS),Software as a Service (SaaS),Functions as a Service (FaaS)
+CompTIA,Which specific data classification category represents any piece of data that can uniquely identify an individual?,Personally Identifiable Information (PII),Protected Health Information (PHI),Intellectual Property (IP),Payment Card Industry (PCI)
+CompTIA,"Which mechanism regularly aggregates, parses, and analyzes system log files from across an enterprise network to flag active incidents?",SIEM,DHCP,DNS,NAT
+CompTIA,Which physical control utilizes a set of dual interlocking doors to prevent unauthorized tailgating or piggybacking into a facility?,Mantrap,Turnstile,Bollard,Biometric Lock
+CompTIA,Which of the following hashing algorithms is explicitly designed to ensure structural data integrity by creating a 256-bit digest?,SHA-256,MD5,AES,RSA
+CompTIA,Which framework provides a comprehensive globally accessible knowledge base of adversary tactics and techniques based on real-world observations?,MITRE ATT&CK,NIST CSF,ISO 27001,OWASP Top 10
+CompTIA,Which protocol provides cryptographic privacy and data integrity for communications over networks like HTTPS?,TLS,SSL,HTTP,FTP
+CompTIA,An administrator needs to securely block unauthorized traffic entering a local corporate subnet. Which device is best suited for this?,Firewall,Hub,Switch,Repeater
+CompTIA,Which authentication factor relies on an inherent physical characteristic unique to an individual user?,Biometrics,Smart Card,Hardware Token,PIN
+CompTIA,Which access control model bases authorization rules explicitly on an assigned organizational job role?,Role-Based Access Control (RBAC),Mandatory Access Control (MAC),Discretionary Access Control (DAC),Attribute-Based Access Control (ABAC)
+CompTIA,What type of malicious software encrypts user files and demands financial compensation to unlock access?,Ransomware,Spyware,Adware,Rootkit
+CompTIA,An input validation flaw allows an attacker to inject arbitrary database queries into a login form. What attack is this?,SQL Injection,Cross-Site Scripting (XSS),Buffer Overflow,Command Injection
+CompTIA,Which social engineering attack specifically targets high-ranking executives using highly tailored phishing emails?,Whaling,Vishing,Smishing,Spam
+CompTIA,During which phase of the incident response lifecycle does a security team permanently eliminate threats and malware from infected hosts?,Eradication,Containment,Identification,Lessons Learned
+CompTIA,Which metric represents the maximum acceptable amount of data loss measured in duration of time following an outage?,Recovery Point Objective (RPO),Recovery Time Objective (RTO),Mean Time to Repair (MTTR),Annualized Loss Expectancy (ALE)
+CompTIA,"Which cloud service model provides consumers with the raw hardware infrastructure, storage, and networking components?",Infrastructure as a Service (IaaS),Platform as a Service (PaaS),Software as a Service (SaaS),Functions as a Service (FaaS)
+CompTIA,Which specific data classification category represents any piece of data that can uniquely identify an individual?,Personally Identifiable Information (PII),Protected Health Information (PHI),Intellectual Property (IP),Payment Card Industry (PCI)
+CompTIA,"Which mechanism regularly aggregates, parses, and analyzes system log files from across an enterprise network to flag active incidents?",SIEM,DHCP,DNS,NAT
+CompTIA,Which physical control utilizes a set of dual interlocking doors to prevent unauthorized tailgating or piggybacking into a facility?,Mantrap,Turnstile,Bollard,Biometric Lock
+CompTIA,Which of the following hashing algorithms is explicitly designed to ensure structural data integrity by creating a 256-bit digest?,SHA-256,MD5,AES,RSA
+CompTIA,Which framework provides a comprehensive globally accessible knowledge base of adversary tactics and techniques based on real-world observations?,MITRE ATT&CK,NIST CSF,ISO 27001,OWASP Top 10
+CompTIA,Which protocol provides cryptographic privacy and data integrity for communications over networks like HTTPS?,TLS,SSL,HTTP,FTP
+CompTIA,An administrator needs to securely block unauthorized traffic entering a local corporate subnet. Which device is best suited for this?,Firewall,Hub,Switch,Repeater
+CompTIA,Which authentication factor relies on an inherent physical characteristic unique to an individual user?,Biometrics,Smart Card,Hardware Token,PIN
+CompTIA,Which access control model bases authorization rules explicitly on an assigned organizational job role?,Role-Based Access Control (RBAC),Mandatory Access Control (MAC),Discretionary Access Control (DAC),Attribute-Based Access Control (ABAC)
+CompTIA,What type of malicious software encrypts user files and demands financial compensation to unlock access?,Ransomware,Spyware,Adware,Rootkit
+CompTIA,An input validation flaw allows an attacker to inject arbitrary database queries into a login form. What attack is this?,SQL Injection,Cross-Site Scripting (XSS),Buffer Overflow,Command Injection
+CompTIA,Which social engineering attack specifically targets high-ranking executives using highly tailored phishing emails?,Whaling,Vishing,Smishing,Spam
+CompTIA,During which phase of the incident response lifecycle does a security team permanently eliminate threats and malware from infected hosts?,Eradication,Containment,Identification,Lessons Learned
+CompTIA,Which metric represents the maximum acceptable amount of data loss measured in duration of time following an outage?,Recovery Point Objective (RPO),Recovery Time Objective (RTO),Mean Time to Repair (MTTR),Annualized Loss Expectancy (ALE)
+CompTIA,"Which cloud service model provides consumers with the raw hardware infrastructure, storage, and networking components?",Infrastructure as a Service (IaaS),Platform as a Service (PaaS),Software as a Service (SaaS),Functions as a Service (FaaS)
+CompTIA,Which specific data classification category represents any piece of data that can uniquely identify an individual?,Personally Identifiable Information (PII),Protected Health Information (PHI),Intellectual Property (IP),Payment Card Industry (PCI)
+CompTIA,"Which mechanism regularly aggregates, parses, and analyzes system log files from across an enterprise network to flag active incidents?",SIEM,DHCP,DNS,NAT
+CompTIA,Which physical control utilizes a set of dual interlocking doors to prevent unauthorized tailgating or piggybacking into a facility?,Mantrap,Turnstile,Bollard,Biometric Lock
+CompTIA,Which of the following hashing algorithms is explicitly designed to ensure structural data integrity by creating a 256-bit digest?,SHA-256,MD5,AES,RSA
+CompTIA,Which framework provides a comprehensive globally accessible knowledge base of adversary tactics and techniques based on real-world observations?,MITRE ATT&CK,NIST CSF,ISO 27001,OWASP Top 10
+CompTIA,Which protocol provides cryptographic privacy and data integrity for communications over networks like HTTPS?,TLS,SSL,HTTP,FTP
+CompTIA,An administrator needs to securely block unauthorized traffic entering a local corporate subnet. Which device is best suited for this?,Firewall,Hub,Switch,Repeater
+CompTIA,Which authentication factor relies on an inherent physical characteristic unique to an individual user?,Biometrics,Smart Card,Hardware Token,PIN
+CompTIA,Which access control model bases authorization rules explicitly on an assigned organizational job role?,Role-Based Access Control (RBAC),Mandatory Access Control (MAC),Discretionary Access Control (DAC),Attribute-Based Access Control (ABAC)
+CompTIA,What type of malicious software encrypts user files and demands financial compensation to unlock access?,Ransomware,Spyware,Adware,Rootkit
+CompTIA,An input validation flaw allows an attacker to inject arbitrary database queries into a login form. What attack is this?,SQL Injection,Cross-Site Scripting (XSS),Buffer Overflow,Command Injection
+CompTIA,Which social engineering attack specifically targets high-ranking executives using highly tailored phishing emails?,Whaling,Vishing,Smishing,Spam
+CompTIA,During which phase of the incident response lifecycle does a security team permanently eliminate threats and malware from infected hosts?,Eradication,Containment,Identification,Lessons Learned
+CompTIA,Which metric represents the maximum acceptable amount of data loss measured in duration of time following an outage?,Recovery Point Objective (RPO),Recovery Time Objective (RTO),Mean Time to Repair (MTTR),Annualized Loss Expectancy (ALE)
+CompTIA,"Which cloud service model provides consumers with the raw hardware infrastructure, storage, and networking components?",Infrastructure as a Service (IaaS),Platform as a Service (PaaS),Software as a Service (SaaS),Functions as a Service (FaaS)
+CompTIA,Which specific data classification category represents any piece of data that can uniquely identify an individual?,Personally Identifiable Information (PII),Protected Health Information (PHI),Intellectual Property (IP),Payment Card Industry (PCI)
+CompTIA,"Which mechanism regularly aggregates, parses, and analyzes system log files from across an enterprise network to flag active incidents?",SIEM,DHCP,DNS,NAT
+CompTIA,Which physical control utilizes a set of dual interlocking doors to prevent unauthorized tailgating or piggybacking into a facility?,Mantrap,Turnstile,Bollard,Biometric Lock
+CompTIA,Which of the following hashing algorithms is explicitly designed to ensure structural data integrity by creating a 256-bit digest?,SHA-256,MD5,AES,RSA
+CompTIA,Which framework provides a comprehensive globally accessible knowledge base of adversary tactics and techniques based on real-world observations?,MITRE ATT&CK,NIST CSF,ISO 27001,OWASP Top 10
+CompTIA,Which protocol provides cryptographic privacy and data integrity for communications over networks like HTTPS?,TLS,SSL,HTTP,FTP
+CompTIA,An administrator needs to securely block unauthorized traffic entering a local corporate subnet. Which device is best suited for this?,Firewall,Hub,Switch,Repeater
+CompTIA,Which authentication factor relies on an inherent physical characteristic unique to an individual user?,Biometrics,Smart Card,Hardware Token,PIN
+CompTIA,Which access control model bases authorization rules explicitly on an assigned organizational job role?,Role-Based Access Control (RBAC),Mandatory Access Control (MAC),Discretionary Access Control (DAC),Attribute-Based Access Control (ABAC)
+CompTIA,What type of malicious software encrypts user files and demands financial compensation to unlock access?,Ransomware,Spyware,Adware,Rootkit
+CompTIA,An input validation flaw allows an attacker to inject arbitrary database queries into a login form. What attack is this?,SQL Injection,Cross-Site Scripting (XSS),Buffer Overflow,Command Injection
+CompTIA,Which social engineering attack specifically targets high-ranking executives using highly tailored phishing emails?,Whaling,Vishing,Smishing,Spam
+CompTIA,During which phase of the incident response lifecycle does a security team permanently eliminate threats and malware from infected hosts?,Eradication,Containment,Identification,Lessons Learned
+CompTIA,Which metric represents the maximum acceptable amount of data loss measured in duration of time following an outage?,Recovery Point Objective (RPO),Recovery Time Objective (RTO),Mean Time to Repair (MTTR),Annualized Loss Expectancy (ALE)
+CompTIA,"Which cloud service model provides consumers with the raw hardware infrastructure, storage, and networking components?",Infrastructure as a Service (IaaS),Platform as a Service (PaaS),Software as a Service (SaaS),Functions as a Service (FaaS)
+CompTIA,Which specific data classification category represents any piece of data that can uniquely identify an individual?,Personally Identifiable Information (PII),Protected Health Information (PHI),Intellectual Property (IP),Payment Card Industry (PCI)
+CompTIA,"Which mechanism regularly aggregates, parses, and analyzes system log files from across an enterprise network to flag active incidents?",SIEM,DHCP,DNS,NAT
+CompTIA,Which physical control utilizes a set of dual interlocking doors to prevent unauthorized tailgating or piggybacking into a facility?,Mantrap,Turnstile,Bollard,Biometric Lock
+CompTIA,Which of the following hashing algorithms is explicitly designed to ensure structural data integrity by creating a 256-bit digest?,SHA-256,MD5,AES,RSA
+CompTIA,Which framework provides a comprehensive globally accessible knowledge base of adversary tactics and techniques based on real-world observations?,MITRE ATT&CK,NIST CSF,ISO 27001,OWASP Top 10
+CompTIA,Which protocol provides cryptographic privacy and data integrity for communications over networks like HTTPS?,TLS,SSL,HTTP,FTP
+CompTIA,An administrator needs to securely block unauthorized traffic entering a local corporate subnet. Which device is best suited for this?,Firewall,Hub,Switch,Repeater
+CompTIA,Which authentication factor relies on an inherent physical characteristic unique to an individual user?,Biometrics,Smart Card,Hardware Token,PIN
+CompTIA,Which access control model bases authorization rules explicitly on an assigned organizational job role?,Role-Based Access Control (RBAC),Mandatory Access Control (MAC),Discretionary Access Control (DAC),Attribute-Based Access Control (ABAC)
+CompTIA,What type of malicious software encrypts user files and demands financial compensation to unlock access?,Ransomware,Spyware,Adware,Rootkit
+CompTIA,An input validation flaw allows an attacker to inject arbitrary database queries into a login form. What attack is this?,SQL Injection,Cross-Site Scripting (XSS),Buffer Overflow,Command Injection
+CompTIA,Which social engineering attack specifically targets high-ranking executives using highly tailored phishing emails?,Whaling,Vishing,Smishing,Spam
+CompTIA,During which phase of the incident response lifecycle does a security team permanently eliminate threats and malware from infected hosts?,Eradication,Containment,Identification,Lessons Learned
+CompTIA,Which metric represents the maximum acceptable amount of data loss measured in duration of time following an outage?,Recovery Point Objective (RPO),Recovery Time Objective (RTO),Mean Time to Repair (MTTR),Annualized Loss Expectancy (ALE)
+CompTIA,"Which cloud service model provides consumers with the raw hardware infrastructure, storage, and networking components?",Infrastructure as a Service (IaaS),Platform as a Service (PaaS),Software as a Service (SaaS),Functions as a Service (FaaS)
+CompTIA,Which specific data classification category represents any piece of data that can uniquely identify an individual?,Personally Identifiable Information (PII),Protected Health Information (PHI),Intellectual Property (IP),Payment Card Industry (PCI)
+CompTIA,"Which mechanism regularly aggregates, parses, and analyzes system log files from across an enterprise network to flag active incidents?",SIEM,DHCP,DNS,NAT
+CompTIA,Which physical control utilizes a set of dual interlocking doors to prevent unauthorized tailgating or piggybacking into a facility?,Mantrap,Turnstile,Bollard,Biometric Lock
+CompTIA,Which of the following hashing algorithms is explicitly designed to ensure structural data integrity by creating a 256-bit digest?,SHA-256,MD5,AES,RSA
+CompTIA,Which framework provides a comprehensive globally accessible knowledge base of adversary tactics and techniques based on real-world observations?,MITRE ATT&CK,NIST CSF,ISO 27001,OWASP Top 10
+CompTIA,Which protocol provides cryptographic privacy and data integrity for communications over networks like HTTPS?,TLS,SSL,HTTP,FTP
+CompTIA,An administrator needs to securely block unauthorized traffic entering a local corporate subnet. Which device is best suited for this?,Firewall,Hub,Switch,Repeater
+CompTIA,Which authentication factor relies on an inherent physical characteristic unique to an individual user?,Biometrics,Smart Card,Hardware Token,PIN
+CompTIA,Which access control model bases authorization rules explicitly on an assigned organizational job role?,Role-Based Access Control (RBAC),Mandatory Access Control (MAC),Discretionary Access Control (DAC),Attribute-Based Access Control (ABAC)
+CompTIA,What type of malicious software encrypts user files and demands financial compensation to unlock access?,Ransomware,Spyware,Adware,Rootkit
+CompTIA,An input validation flaw allows an attacker to inject arbitrary database queries into a login form. What attack is this?,SQL Injection,Cross-Site Scripting (XSS),Buffer Overflow,Command Injection
+CompTIA,Which social engineering attack specifically targets high-ranking executives using highly tailored phishing emails?,Whaling,Vishing,Smishing,Spam
+CompTIA,During which phase of the incident response lifecycle does a security team permanently eliminate threats and malware from infected hosts?,Eradication,Containment,Identification,Lessons Learned
+CompTIA,Which metric represents the maximum acceptable amount of data loss measured in duration of time following an outage?,Recovery Point Objective (RPO),Recovery Time Objective (RTO),Mean Time to Repair (MTTR),Annualized Loss Expectancy (ALE)
+CompTIA,"Which cloud service model provides consumers with the raw hardware infrastructure, storage, and networking components?",Infrastructure as a Service (IaaS),Platform as a Service (PaaS),Software as a Service (SaaS),Functions as a Service (FaaS)
+CompTIA,Which specific data classification category represents any piece of data that can uniquely identify an individual?,Personally Identifiable Information (PII),Protected Health Information (PHI),Intellectual Property (IP),Payment Card Industry (PCI)
+CompTIA,"Which mechanism regularly aggregates, parses, and analyzes system log files from across an enterprise network to flag active incidents?",SIEM,DHCP,DNS,NAT
+CompTIA,Which physical control utilizes a set of dual interlocking doors to prevent unauthorized tailgating or piggybacking into a facility?,Mantrap,Turnstile,Bollard,Biometric Lock
+CompTIA,Which of the following hashing algorithms is explicitly designed to ensure structural data integrity by creating a 256-bit digest?,SHA-256,MD5,AES,RSA
+CompTIA,Which framework provides a comprehensive globally accessible knowledge base of adversary tactics and techniques based on real-world observations?,MITRE ATT&CK,NIST CSF,ISO 27001,OWASP Top 10
+CompTIA,Which protocol provides cryptographic privacy and data integrity for communications over networks like HTTPS?,TLS,SSL,HTTP,FTP
+CompTIA,An administrator needs to securely block unauthorized traffic entering a local corporate subnet. Which device is best suited for this?,Firewall,Hub,Switch,Repeater
+CompTIA,Which authentication factor relies on an inherent physical characteristic unique to an individual user?,Biometrics,Smart Card,Hardware Token,PIN
+CompTIA,Which access control model bases authorization rules explicitly on an assigned organizational job role?,Role-Based Access Control (RBAC),Mandatory Access Control (MAC),Discretionary Access Control (DAC),Attribute-Based Access Control (ABAC)
+CompTIA,What type of malicious software encrypts user files and demands financial compensation to unlock access?,Ransomware,Spyware,Adware,Rootkit
+CompTIA,An input validation flaw allows an attacker to inject arbitrary database queries into a login form. What attack is this?,SQL Injection,Cross-Site Scripting (XSS),Buffer Overflow,Command Injection
+CompTIA,Which social engineering attack specifically targets high-ranking executives using highly tailored phishing emails?,Whaling,Vishing,Smishing,Spam
+CompTIA,During which phase of the incident response lifecycle does a security team permanently eliminate threats and malware from infected hosts?,Eradication,Containment,Identification,Lessons Learned
+CompTIA,Which metric represents the maximum acceptable amount of data loss measured in duration of time following an outage?,Recovery Point Objective (RPO),Recovery Time Objective (RTO),Mean Time to Repair (MTTR),Annualized Loss Expectancy (ALE)
+CompTIA,"Which cloud service model provides consumers with the raw hardware infrastructure, storage, and networking components?",Infrastructure as a Service (IaaS),Platform as a Service (PaaS),Software as a Service (SaaS),Functions as a Service (FaaS)
+CompTIA,Which specific data classification category represents any piece of data that can uniquely identify an individual?,Personally Identifiable Information (PII),Protected Health Information (PHI),Intellectual Property (IP),Payment Card Industry (PCI)
+CompTIA,"Which mechanism regularly aggregates, parses, and analyzes system log files from across an enterprise network to flag active incidents?",SIEM,DHCP,DNS,NAT
+CompTIA,Which physical control utilizes a set of dual interlocking doors to prevent unauthorized tailgating or piggybacking into a facility?,Mantrap,Turnstile,Bollard,Biometric Lock
+CompTIA,Which of the following hashing algorithms is explicitly designed to ensure structural data integrity by creating a 256-bit digest?,SHA-256,MD5,AES,RSA
+CompTIA,Which framework provides a comprehensive globally accessible knowledge base of adversary tactics and techniques based on real-world observations?,MITRE ATT&CK,NIST CSF,ISO 27001,OWASP Top 10
+CompTIA,Which protocol provides cryptographic privacy and data integrity for communications over networks like HTTPS?,TLS,SSL,HTTP,FTP
+CompTIA,An administrator needs to securely block unauthorized traffic entering a local corporate subnet. Which device is best suited for this?,Firewall,Hub,Switch,Repeater
+CompTIA,Which authentication factor relies on an inherent physical characteristic unique to an individual user?,Biometrics,Smart Card,Hardware Token,PIN
+CompTIA,Which access control model bases authorization rules explicitly on an assigned organizational job role?,Role-Based Access Control (RBAC),Mandatory Access Control (MAC),Discretionary Access Control (DAC),Attribute-Based Access Control (ABAC)
+CompTIA,What type of malicious software encrypts user files and demands financial compensation to unlock access?,Ransomware,Spyware,Adware,Rootkit
+CompTIA,An input validation flaw allows an attacker to inject arbitrary database queries into a login form. What attack is this?,SQL Injection,Cross-Site Scripting (XSS),Buffer Overflow,Command Injection
+CompTIA,Which social engineering attack specifically targets high-ranking executives using highly tailored phishing emails?,Whaling,Vishing,Smishing,Spam
+CompTIA,During which phase of the incident response lifecycle does a security team permanently eliminate threats and malware from infected hosts?,Eradication,Containment,Identification,Lessons Learned
+CompTIA,Which metric represents the maximum acceptable amount of data loss measured in duration of time following an outage?,Recovery Point Objective (RPO),Recovery Time Objective (RTO),Mean Time to Repair (MTTR),Annualized Loss Expectancy (ALE)
+CompTIA,"Which cloud service model provides consumers with the raw hardware infrastructure, storage, and networking components?",Infrastructure as a Service (IaaS),Platform as a Service (PaaS),Software as a Service (SaaS),Functions as a Service (FaaS)
+CompTIA,Which specific data classification category represents any piece of data that can uniquely identify an individual?,Personally Identifiable Information (PII),Protected Health Information (PHI),Intellectual Property (IP),Payment Card Industry (PCI)
+CompTIA,"Which mechanism regularly aggregates, parses, and analyzes system log files from across an enterprise network to flag active incidents?",SIEM,DHCP,DNS,NAT
+CompTIA,Which physical control utilizes a set of dual interlocking doors to prevent unauthorized tailgating or piggybacking into a facility?,Mantrap,Turnstile,Bollard,Biometric Lock
+CompTIA,Which of the following hashing algorithms is explicitly designed to ensure structural data integrity by creating a 256-bit digest?,SHA-256,MD5,AES,RSA
+CompTIA,Which framework provides a comprehensive globally accessible knowledge base of adversary tactics and techniques based on real-world observations?,MITRE ATT&CK,NIST CSF,ISO 27001,OWASP Top 10
+CompTIA,Which protocol provides cryptographic privacy and data integrity for communications over networks like HTTPS?,TLS,SSL,HTTP,FTP
+CompTIA,An administrator needs to securely block unauthorized traffic entering a local corporate subnet. Which device is best suited for this?,Firewall,Hub,Switch,Repeater
+CompTIA,Which authentication factor relies on an inherent physical characteristic unique to an individual user?,Biometrics,Smart Card,Hardware Token,PIN
+CompTIA,Which access control model bases authorization rules explicitly on an assigned organizational job role?,Role-Based Access Control (RBAC),Mandatory Access Control (MAC),Discretionary Access Control (DAC),Attribute-Based Access Control (ABAC)
+CompTIA,What type of malicious software encrypts user files and demands financial compensation to unlock access?,Ransomware,Spyware,Adware,Rootkit
+CompTIA,An input validation flaw allows an attacker to inject arbitrary database queries into a login form. What attack is this?,SQL Injection,Cross-Site Scripting (XSS),Buffer Overflow,Command Injection
+CompTIA,Which social engineering attack specifically targets high-ranking executives using highly tailored phishing emails?,Whaling,Vishing,Smishing,Spam
+CompTIA,During which phase of the incident response lifecycle does a security team permanently eliminate threats and malware from infected hosts?,Eradication,Containment,Identification,Lessons Learned
+CompTIA,Which metric represents the maximum acceptable amount of data loss measured in duration of time following an outage?,Recovery Point Objective (RPO),Recovery Time Objective (RTO),Mean Time to Repair (MTTR),Annualized Loss Expectancy (ALE)
+CompTIA,"Which cloud service model provides consumers with the raw hardware infrastructure, storage, and networking components?",Infrastructure as a Service (IaaS),Platform as a Service (PaaS),Software as a Service (SaaS),Functions as a Service (FaaS)
+CompTIA,Which specific data classification category represents any piece of data that can uniquely identify an individual?,Personally Identifiable Information (PII),Protected Health Information (PHI),Intellectual Property (IP),Payment Card Industry (PCI)
+CompTIA,"Which mechanism regularly aggregates, parses, and analyzes system log files from across an enterprise network to flag active incidents?",SIEM,DHCP,DNS,NAT
+CompTIA,Which physical control utilizes a set of dual interlocking doors to prevent unauthorized tailgating or piggybacking into a facility?,Mantrap,Turnstile,Bollard,Biometric Lock
+CompTIA,Which of the following hashing algorithms is explicitly designed to ensure structural data integrity by creating a 256-bit digest?,SHA-256,MD5,AES,RSA
+CompTIA,Which framework provides a comprehensive globally accessible knowledge base of adversary tactics and techniques based on real-world observations?,MITRE ATT&CK,NIST CSF,ISO 27001,OWASP Top 10
+CompTIA,Which protocol provides cryptographic privacy and data integrity for communications over networks like HTTPS?,TLS,SSL,HTTP,FTP
+CompTIA,An administrator needs to securely block unauthorized traffic entering a local corporate subnet. Which device is best suited for this?,Firewall,Hub,Switch,Repeater
+CompTIA,Which authentication factor relies on an inherent physical characteristic unique to an individual user?,Biometrics,Smart Card,Hardware Token,PIN
+CompTIA,Which access control model bases authorization rules explicitly on an assigned organizational job role?,Role-Based Access Control (RBAC),Mandatory Access Control (MAC),Discretionary Access Control (DAC),Attribute-Based Access Control (ABAC)
+CompTIA,What type of malicious software encrypts user files and demands financial compensation to unlock access?,Ransomware,Spyware,Adware,Rootkit
+CompTIA,An input validation flaw allows an attacker to inject arbitrary database queries into a login form. What attack is this?,SQL Injection,Cross-Site Scripting (XSS),Buffer Overflow,Command Injection
+CompTIA,Which social engineering attack specifically targets high-ranking executives using highly tailored phishing emails?,Whaling,Vishing,Smishing,Spam
+CompTIA,During which phase of the incident response lifecycle does a security team permanently eliminate threats and malware from infected hosts?,Eradication,Containment,Identification,Lessons Learned
+CompTIA,Which metric represents the maximum acceptable amount of data loss measured in duration of time following an outage?,Recovery Point Objective (RPO),Recovery Time Objective (RTO),Mean Time to Repair (MTTR),Annualized Loss Expectancy (ALE)
+CompTIA,"Which cloud service model provides consumers with the raw hardware infrastructure, storage, and networking components?",Infrastructure as a Service (IaaS),Platform as a Service (PaaS),Software as a Service (SaaS),Functions as a Service (FaaS)
+CompTIA,Which specific data classification category represents any piece of data that can uniquely identify an individual?,Personally Identifiable Information (PII),Protected Health Information (PHI),Intellectual Property (IP),Payment Card Industry (PCI)
+CompTIA,"Which mechanism regularly aggregates, parses, and analyzes system log files from across an enterprise network to flag active incidents?",SIEM,DHCP,DNS,NAT
+CompTIA,Which physical control utilizes a set of dual interlocking doors to prevent unauthorized tailgating or piggybacking into a facility?,Mantrap,Turnstile,Bollard,Biometric Lock
+CompTIA,Which of the following hashing algorithms is explicitly designed to ensure structural data integrity by creating a 256-bit digest?,SHA-256,MD5,AES,RSA
+CompTIA,Which framework provides a comprehensive globally accessible knowledge base of adversary tactics and techniques based on real-world observations?,MITRE ATT&CK,NIST CSF,ISO 27001,OWASP Top 10
+CompTIA,Which protocol provides cryptographic privacy and data integrity for communications over networks like HTTPS?,TLS,SSL,HTTP,FTP
+CompTIA,An administrator needs to securely block unauthorized traffic entering a local corporate subnet. Which device is best suited for this?,Firewall,Hub,Switch,Repeater
+CompTIA,Which authentication factor relies on an inherent physical characteristic unique to an individual user?,Biometrics,Smart Card,Hardware Token,PIN
+CompTIA,Which access control model bases authorization rules explicitly on an assigned organizational job role?,Role-Based Access Control (RBAC),Mandatory Access Control (MAC),Discretionary Access Control (DAC),Attribute-Based Access Control (ABAC)
+CompTIA,What type of malicious software encrypts user files and demands financial compensation to unlock access?,Ransomware,Spyware,Adware,Rootkit
+CompTIA,An input validation flaw allows an attacker to inject arbitrary database queries into a login form. What attack is this?,SQL Injection,Cross-Site Scripting (XSS),Buffer Overflow,Command Injection
+CompTIA,Which social engineering attack specifically targets high-ranking executives using highly tailored phishing emails?,Whaling,Vishing,Smishing,Spam
+CompTIA,During which phase of the incident response lifecycle does a security team permanently eliminate threats and malware from infected hosts?,Eradication,Containment,Identification,Lessons Learned
+CompTIA,Which metric represents the maximum acceptable amount of data loss measured in duration of time following an outage?,Recovery Point Objective (RPO),Recovery Time Objective (RTO),Mean Time to Repair (MTTR),Annualized Loss Expectancy (ALE)
+CompTIA,"Which cloud service model provides consumers with the raw hardware infrastructure, storage, and networking components?",Infrastructure as a Service (IaaS),Platform as a Service (PaaS),Software as a Service (SaaS),Functions as a Service (FaaS)
+CompTIA,Which specific data classification category represents any piece of data that can uniquely identify an individual?,Personally Identifiable Information (PII),Protected Health Information (PHI),Intellectual Property (IP),Payment Card Industry (PCI)
+CompTIA,"Which mechanism regularly aggregates, parses, and analyzes system log files from across an enterprise network to flag active incidents?",SIEM,DHCP,DNS,NAT
+CompTIA,Which physical control utilizes a set of dual interlocking doors to prevent unauthorized tailgating or piggybacking into a facility?,Mantrap,Turnstile,Bollard,Biometric Lock
+CompTIA,Which of the following hashing algorithms is explicitly designed to ensure structural data integrity by creating a 256-bit digest?,SHA-256,MD5,AES,RSA
+CompTIA,Which framework provides a comprehensive globally accessible knowledge base of adversary tactics and techniques based on real-world observations?,MITRE ATT&CK,NIST CSF,ISO 27001,OWASP Top 10
+CompTIA,Which protocol provides cryptographic privacy and data integrity for communications over networks like HTTPS?,TLS,SSL,HTTP,FTP
+CompTIA,An administrator needs to securely block unauthorized traffic entering a local corporate subnet. Which device is best suited for this?,Firewall,Hub,Switch,Repeater
+CompTIA,Which authentication factor relies on an inherent physical characteristic unique to an individual user?,Biometrics,Smart Card,Hardware Token,PIN
+CompTIA,Which access control model bases authorization rules explicitly on an assigned organizational job role?,Role-Based Access Control (RBAC),Mandatory Access Control (MAC),Discretionary Access Control (DAC),Attribute-Based Access Control (ABAC)
+CompTIA,What type of malicious software encrypts user files and demands financial compensation to unlock access?,Ransomware,Spyware,Adware,Rootkit
+CompTIA,An input validation flaw allows an attacker to inject arbitrary database queries into a login form. What attack is this?,SQL Injection,Cross-Site Scripting (XSS),Buffer Overflow,Command Injection
+CompTIA,Which social engineering attack specifically targets high-ranking executives using highly tailored phishing emails?,Whaling,Vishing,Smishing,Spam
+CompTIA,During which phase of the incident response lifecycle does a security team permanently eliminate threats and malware from infected hosts?,Eradication,Containment,Identification,Lessons Learned
+CompTIA,Which metric represents the maximum acceptable amount of data loss measured in duration of time following an outage?,Recovery Point Objective (RPO),Recovery Time Objective (RTO),Mean Time to Repair (MTTR),Annualized Loss Expectancy (ALE)
+CompTIA,"Which cloud service model provides consumers with the raw hardware infrastructure, storage, and networking components?",Infrastructure as a Service (IaaS),Platform as a Service (PaaS),Software as a Service (SaaS),Functions as a Service (FaaS)
+CompTIA,Which specific data classification category represents any piece of data that can uniquely identify an individual?,Personally Identifiable Information (PII),Protected Health Information (PHI),Intellectual Property (IP),Payment Card Industry (PCI)
+CompTIA,"Which mechanism regularly aggregates, parses, and analyzes system log files from across an enterprise network to flag active incidents?",SIEM,DHCP,DNS,NAT
+CompTIA,Which physical control utilizes a set of dual interlocking doors to prevent unauthorized tailgating or piggybacking into a facility?,Mantrap,Turnstile,Bollard,Biometric Lock
+CompTIA,Which of the following hashing algorithms is explicitly designed to ensure structural data integrity by creating a 256-bit digest?,SHA-256,MD5,AES,RSA
+CompTIA,Which framework provides a comprehensive globally accessible knowledge base of adversary tactics and techniques based on real-world observations?,MITRE ATT&CK,NIST CSF,ISO 27001,OWASP Top 10
+CompTIA,Which protocol provides cryptographic privacy and data integrity for communications over networks like HTTPS?,TLS,SSL,HTTP,FTP
+CompTIA,An administrator needs to securely block unauthorized traffic entering a local corporate subnet. Which device is best suited for this?,Firewall,Hub,Switch,Repeater
+CompTIA,Which authentication factor relies on an inherent physical characteristic unique to an individual user?,Biometrics,Smart Card,Hardware Token,PIN
+CompTIA,Which access control model bases authorization rules explicitly on an assigned organizational job role?,Role-Based Access Control (RBAC),Mandatory Access Control (MAC),Discretionary Access Control (DAC),Attribute-Based Access Control (ABAC)
+CompTIA,What type of malicious software encrypts user files and demands financial compensation to unlock access?,Ransomware,Spyware,Adware,Rootkit
+CompTIA,An input validation flaw allows an attacker to inject arbitrary database queries into a login form. What attack is this?,SQL Injection,Cross-Site Scripting (XSS),Buffer Overflow,Command Injection
+CompTIA,Which social engineering attack specifically targets high-ranking executives using highly tailored phishing emails?,Whaling,Vishing,Smishing,Spam
+CompTIA,During which phase of the incident response lifecycle does a security team permanently eliminate threats and malware from infected hosts?,Eradication,Containment,Identification,Lessons Learned
+CompTIA,Which metric represents the maximum acceptable amount of data loss measured in duration of time following an outage?,Recovery Point Objective (RPO),Recovery Time Objective (RTO),Mean Time to Repair (MTTR),Annualized Loss Expectancy (ALE)
+CompTIA,"Which cloud service model provides consumers with the raw hardware infrastructure, storage, and networking components?",Infrastructure as a Service (IaaS),Platform as a Service (PaaS),Software as a Service (SaaS),Functions as a Service (FaaS)
+CompTIA,Which specific data classification category represents any piece of data that can uniquely identify an individual?,Personally Identifiable Information (PII),Protected Health Information (PHI),Intellectual Property (IP),Payment Card Industry (PCI)
+CompTIA,"Which mechanism regularly aggregates, parses, and analyzes system log files from across an enterprise network to flag active incidents?",SIEM,DHCP,DNS,NAT
+CompTIA,Which physical control utilizes a set of dual interlocking doors to prevent unauthorized tailgating or piggybacking into a facility?,Mantrap,Turnstile,Bollard,Biometric Lock
+CompTIA,Which of the following hashing algorithms is explicitly designed to ensure structural data integrity by creating a 256-bit digest?,SHA-256,MD5,AES,RSA
+CompTIA,Which framework provides a comprehensive globally accessible knowledge base of adversary tactics and techniques based on real-world observations?,MITRE ATT&CK,NIST CSF,ISO 27001,OWASP Top 10
+CompTIA,Which protocol provides cryptographic privacy and data integrity for communications over networks like HTTPS?,TLS,SSL,HTTP,FTP
+CompTIA,An administrator needs to securely block unauthorized traffic entering a local corporate subnet. Which device is best suited for this?,Firewall,Hub,Switch,Repeater
+CompTIA,Which authentication factor relies on an inherent physical characteristic unique to an individual user?,Biometrics,Smart Card,Hardware Token,PIN
+CompTIA,Which access control model bases authorization rules explicitly on an assigned organizational job role?,Role-Based Access Control (RBAC),Mandatory Access Control (MAC),Discretionary Access Control (DAC),Attribute-Based Access Control (ABAC)
+CompTIA,What type of malicious software encrypts user files and demands financial compensation to unlock access?,Ransomware,Spyware,Adware,Rootkit
+CompTIA,An input validation flaw allows an attacker to inject arbitrary database queries into a login form. What attack is this?,SQL Injection,Cross-Site Scripting (XSS),Buffer Overflow,Command Injection
+CompTIA,Which social engineering attack specifically targets high-ranking executives using highly tailored phishing emails?,Whaling,Vishing,Smishing,Spam
+CompTIA,During which phase of the incident response lifecycle does a security team permanently eliminate threats and malware from infected hosts?,Eradication,Containment,Identification,Lessons Learned
+CompTIA,Which metric represents the maximum acceptable amount of data loss measured in duration of time following an outage?,Recovery Point Objective (RPO),Recovery Time Objective (RTO),Mean Time to Repair (MTTR),Annualized Loss Expectancy (ALE)
+CompTIA,"Which cloud service model provides consumers with the raw hardware infrastructure, storage, and networking components?",Infrastructure as a Service (IaaS),Platform as a Service (PaaS),Software as a Service (SaaS),Functions as a Service (FaaS)
+CompTIA,Which specific data classification category represents any piece of data that can uniquely identify an individual?,Personally Identifiable Information (PII),Protected Health Information (PHI),Intellectual Property (IP),Payment Card Industry (PCI)
+CompTIA,"Which mechanism regularly aggregates, parses, and analyzes system log files from across an enterprise network to flag active incidents?",SIEM,DHCP,DNS,NAT
+CompTIA,Which physical control utilizes a set of dual interlocking doors to prevent unauthorized tailgating or piggybacking into a facility?,Mantrap,Turnstile,Bollard,Biometric Lock
+CompTIA,Which of the following hashing algorithms is explicitly designed to ensure structural data integrity by creating a 256-bit digest?,SHA-256,MD5,AES,RSA
+CompTIA,Which framework provides a comprehensive globally accessible knowledge base of adversary tactics and techniques based on real-world observations?,MITRE ATT&CK,NIST CSF,ISO 27001,OWASP Top 10
+CompTIA,Which protocol provides cryptographic privacy and data integrity for communications over networks like HTTPS?,TLS,SSL,HTTP,FTP
+CompTIA,An administrator needs to securely block unauthorized traffic entering a local corporate subnet. Which device is best suited for this?,Firewall,Hub,Switch,Repeater
+CompTIA,Which authentication factor relies on an inherent physical characteristic unique to an individual user?,Biometrics,Smart Card,Hardware Token,PIN
+CompTIA,Which access control model bases authorization rules explicitly on an assigned organizational job role?,Role-Based Access Control (RBAC),Mandatory Access Control (MAC),Discretionary Access Control (DAC),Attribute-Based Access Control (ABAC)
+CompTIA,What type of malicious software encrypts user files and demands financial compensation to unlock access?,Ransomware,Spyware,Adware,Rootkit
+CompTIA,An input validation flaw allows an attacker to inject arbitrary database queries into a login form. What attack is this?,SQL Injection,Cross-Site Scripting (XSS),Buffer Overflow,Command Injection
+CompTIA,Which social engineering attack specifically targets high-ranking executives using highly tailored phishing emails?,Whaling,Vishing,Smishing,Spam
+CompTIA,During which phase of the incident response lifecycle does a security team permanently eliminate threats and malware from infected hosts?,Eradication,Containment,Identification,Lessons Learned
+CompTIA,Which metric represents the maximum acceptable amount of data loss measured in duration of time following an outage?,Recovery Point Objective (RPO),Recovery Time Objective (RTO),Mean Time to Repair (MTTR),Annualized Loss Expectancy (ALE)
+CompTIA,"Which cloud service model provides consumers with the raw hardware infrastructure, storage, and networking components?",Infrastructure as a Service (IaaS),Platform as a Service (PaaS),Software as a Service (SaaS),Functions as a Service (FaaS)
+CompTIA,Which specific data classification category represents any piece of data that can uniquely identify an individual?,Personally Identifiable Information (PII),Protected Health Information (PHI),Intellectual Property (IP),Payment Card Industry (PCI)
+CompTIA,"Which mechanism regularly aggregates, parses, and analyzes system log files from across an enterprise network to flag active incidents?",SIEM,DHCP,DNS,NAT
+CompTIA,Which physical control utilizes a set of dual interlocking doors to prevent unauthorized tailgating or piggybacking into a facility?,Mantrap,Turnstile,Bollard,Biometric Lock
+CompTIA,Which of the following hashing algorithms is explicitly designed to ensure structural data integrity by creating a 256-bit digest?,SHA-256,MD5,AES,RSA
+CompTIA,Which framework provides a comprehensive globally accessible knowledge base of adversary tactics and techniques based on real-world observations?,MITRE ATT&CK,NIST CSF,ISO 27001,OWASP Top 10
+CompTIA,Which protocol provides cryptographic privacy and data integrity for communications over networks like HTTPS?,TLS,SSL,HTTP,FTP
+CompTIA,An administrator needs to securely block unauthorized traffic entering a local corporate subnet. Which device is best suited for this?,Firewall,Hub,Switch,Repeater
+CompTIA,Which authentication factor relies on an inherent physical characteristic unique to an individual user?,Biometrics,Smart Card,Hardware Token,PIN
+CompTIA,Which access control model bases authorization rules explicitly on an assigned organizational job role?,Role-Based Access Control (RBAC),Mandatory Access Control (MAC),Discretionary Access Control (DAC),Attribute-Based Access Control (ABAC)
+CompTIA,What type of malicious software encrypts user files and demands financial compensation to unlock access?,Ransomware,Spyware,Adware,Rootkit
+CompTIA,An input validation flaw allows an attacker to inject arbitrary database queries into a login form. What attack is this?,SQL Injection,Cross-Site Scripting (XSS),Buffer Overflow,Command Injection
+CompTIA,Which social engineering attack specifically targets high-ranking executives using highly tailored phishing emails?,Whaling,Vishing,Smishing,Spam
+CompTIA,During which phase of the incident response lifecycle does a security team permanently eliminate threats and malware from infected hosts?,Eradication,Containment,Identification,Lessons Learned
+CompTIA,Which metric represents the maximum acceptable amount of data loss measured in duration of time following an outage?,Recovery Point Objective (RPO),Recovery Time Objective (RTO),Mean Time to Repair (MTTR),Annualized Loss Expectancy (ALE)
+CompTIA,"Which cloud service model provides consumers with the raw hardware infrastructure, storage, and networking components?",Infrastructure as a Service (IaaS),Platform as a Service (PaaS),Software as a Service (SaaS),Functions as a Service (FaaS)
+CompTIA,Which specific data classification category represents any piece of data that can uniquely identify an individual?,Personally Identifiable Information (PII),Protected Health Information (PHI),Intellectual Property (IP),Payment Card Industry (PCI)
+CompTIA,"Which mechanism regularly aggregates, parses, and analyzes system log files from across an enterprise network to flag active incidents?",SIEM,DHCP,DNS,NAT
+CompTIA,Which physical control utilizes a set of dual interlocking doors to prevent unauthorized tailgating or piggybacking into a facility?,Mantrap,Turnstile,Bollard,Biometric Lock
+CompTIA,Which of the following hashing algorithms is explicitly designed to ensure structural data integrity by creating a 256-bit digest?,SHA-256,MD5,AES,RSA
+CompTIA,Which framework provides a comprehensive globally accessible knowledge base of adversary tactics and techniques based on real-world observations?,MITRE ATT&CK,NIST CSF,ISO 27001,OWASP Top 10
+CompTIA,Which protocol provides cryptographic privacy and data integrity for communications over networks like HTTPS?,TLS,SSL,HTTP,FTP
+CompTIA,An administrator needs to securely block unauthorized traffic entering a local corporate subnet. Which device is best suited for this?,Firewall,Hub,Switch,Repeater
+CompTIA,Which authentication factor relies on an inherent physical characteristic unique to an individual user?,Biometrics,Smart Card,Hardware Token,PIN
+CompTIA,Which access control model bases authorization rules explicitly on an assigned organizational job role?,Role-Based Access Control (RBAC),Mandatory Access Control (MAC),Discretionary Access Control (DAC),Attribute-Based Access Control (ABAC)
+CompTIA,What type of malicious software encrypts user files and demands financial compensation to unlock access?,Ransomware,Spyware,Adware,Rootkit
+CompTIA,An input validation flaw allows an attacker to inject arbitrary database queries into a login form. What attack is this?,SQL Injection,Cross-Site Scripting (XSS),Buffer Overflow,Command Injection
+CompTIA,Which social engineering attack specifically targets high-ranking executives using highly tailored phishing emails?,Whaling,Vishing,Smishing,Spam
+CompTIA,During which phase of the incident response lifecycle does a security team permanently eliminate threats and malware from infected hosts?,Eradication,Containment,Identification,Lessons Learned
+CompTIA,Which metric represents the maximum acceptable amount of data loss measured in duration of time following an outage?,Recovery Point Objective (RPO),Recovery Time Objective (RTO),Mean Time to Repair (MTTR),Annualized Loss Expectancy (ALE)
+CompTIA,"Which cloud service model provides consumers with the raw hardware infrastructure, storage, and networking components?",Infrastructure as a Service (IaaS),Platform as a Service (PaaS),Software as a Service (SaaS),Functions as a Service (FaaS)
+CompTIA,Which specific data classification category represents any piece of data that can uniquely identify an individual?,Personally Identifiable Information (PII),Protected Health Information (PHI),Intellectual Property (IP),Payment Card Industry (PCI)
+CompTIA,"Which mechanism regularly aggregates, parses, and analyzes system log files from across an enterprise network to flag active incidents?",SIEM,DHCP,DNS,NAT
+CompTIA,Which physical control utilizes a set of dual interlocking doors to prevent unauthorized tailgating or piggybacking into a facility?,Mantrap,Turnstile,Bollard,Biometric Lock
+CompTIA,Which of the following hashing algorithms is explicitly designed to ensure structural data integrity by creating a 256-bit digest?,SHA-256,MD5,AES,RSA
+CompTIA,Which framework provides a comprehensive globally accessible knowledge base of adversary tactics and techniques based on real-world observations?,MITRE ATT&CK,NIST CSF,ISO 27001,OWASP Top 10
+CompTIA,Which protocol provides cryptographic privacy and data integrity for communications over networks like HTTPS?,TLS,SSL,HTTP,FTP
+CompTIA,An administrator needs to securely block unauthorized traffic entering a local corporate subnet. Which device is best suited for this?,Firewall,Hub,Switch,Repeater
+CompTIA,Which authentication factor relies on an inherent physical characteristic unique to an individual user?,Biometrics,Smart Card,Hardware Token,PIN
+CompTIA,Which access control model bases authorization rules explicitly on an assigned organizational job role?,Role-Based Access Control (RBAC),Mandatory Access Control (MAC),Discretionary Access Control (DAC),Attribute-Based Access Control (ABAC)
+CompTIA,What type of malicious software encrypts user files and demands financial compensation to unlock access?,Ransomware,Spyware,Adware,Rootkit
+CompTIA,An input validation flaw allows an attacker to inject arbitrary database queries into a login form. What attack is this?,SQL Injection,Cross-Site Scripting (XSS),Buffer Overflow,Command Injection
+CompTIA,Which social engineering attack specifically targets high-ranking executives using highly tailored phishing emails?,Whaling,Vishing,Smishing,Spam
+CompTIA,During which phase of the incident response lifecycle does a security team permanently eliminate threats and malware from infected hosts?,Eradication,Containment,Identification,Lessons Learned
+CompTIA,Which metric represents the maximum acceptable amount of data loss measured in duration of time following an outage?,Recovery Point Objective (RPO),Recovery Time Objective (RTO),Mean Time to Repair (MTTR),Annualized Loss Expectancy (ALE)
+CompTIA,"Which cloud service model provides consumers with the raw hardware infrastructure, storage, and networking components?",Infrastructure as a Service (IaaS),Platform as a Service (PaaS),Software as a Service (SaaS),Functions as a Service (FaaS)
+CompTIA,Which specific data classification category represents any piece of data that can uniquely identify an individual?,Personally Identifiable Information (PII),Protected Health Information (PHI),Intellectual Property (IP),Payment Card Industry (PCI)
+CompTIA,"Which mechanism regularly aggregates, parses, and analyzes system log files from across an enterprise network to flag active incidents?",SIEM,DHCP,DNS,NAT
+CompTIA,Which physical control utilizes a set of dual interlocking doors to prevent unauthorized tailgating or piggybacking into a facility?,Mantrap,Turnstile,Bollard,Biometric Lock
+CompTIA,Which of the following hashing algorithms is explicitly designed to ensure structural data integrity by creating a 256-bit digest?,SHA-256,MD5,AES,RSA
+CompTIA,Which framework provides a comprehensive globally accessible knowledge base of adversary tactics and techniques based on real-world observations?,MITRE ATT&CK,NIST CSF,ISO 27001,OWASP Top 10
+CompTIA,Which protocol provides cryptographic privacy and data integrity for communications over networks like HTTPS?,TLS,SSL,HTTP,FTP
+CompTIA,An administrator needs to securely block unauthorized traffic entering a local corporate subnet. Which device is best suited for this?,Firewall,Hub,Switch,Repeater
+CompTIA,Which authentication factor relies on an inherent physical characteristic unique to an individual user?,Biometrics,Smart Card,Hardware Token,PIN
+CompTIA,Which access control model bases authorization rules explicitly on an assigned organizational job role?,Role-Based Access Control (RBAC),Mandatory Access Control (MAC),Discretionary Access Control (DAC),Attribute-Based Access Control (ABAC)
+CompTIA,What type of malicious software encrypts user files and demands financial compensation to unlock access?,Ransomware,Spyware,Adware,Rootkit
+CompTIA,An input validation flaw allows an attacker to inject arbitrary database queries into a login form. What attack is this?,SQL Injection,Cross-Site Scripting (XSS),Buffer Overflow,Command Injection
+CompTIA,Which social engineering attack specifically targets high-ranking executives using highly tailored phishing emails?,Whaling,Vishing,Smishing,Spam
+CompTIA,During which phase of the incident response lifecycle does a security team permanently eliminate threats and malware from infected hosts?,Eradication,Containment,Identification,Lessons Learned
+CompTIA,Which metric represents the maximum acceptable amount of data loss measured in duration of time following an outage?,Recovery Point Objective (RPO),Recovery Time Objective (RTO),Mean Time to Repair (MTTR),Annualized Loss Expectancy (ALE)
+CompTIA,"Which cloud service model provides consumers with the raw hardware infrastructure, storage, and networking components?",Infrastructure as a Service (IaaS),Platform as a Service (PaaS),Software as a Service (SaaS),Functions as a Service (FaaS)
+CompTIA,Which specific data classification category represents any piece of data that can uniquely identify an individual?,Personally Identifiable Information (PII),Protected Health Information (PHI),Intellectual Property (IP),Payment Card Industry (PCI)
+CompTIA,"Which mechanism regularly aggregates, parses, and analyzes system log files from across an enterprise network to flag active incidents?",SIEM,DHCP,DNS,NAT
+CompTIA,Which physical control utilizes a set of dual interlocking doors to prevent unauthorized tailgating or piggybacking into a facility?,Mantrap,Turnstile,Bollard,Biometric Lock
+CompTIA,Which of the following hashing algorithms is explicitly designed to ensure structural data integrity by creating a 256-bit digest?,SHA-256,MD5,AES,RSA
+CompTIA,Which framework provides a comprehensive globally accessible knowledge base of adversary tactics and techniques based on real-world observations?,MITRE ATT&CK,NIST CSF,ISO 27001,OWASP Top 10
+CompTIA,Which protocol provides cryptographic privacy and data integrity for communications over networks like HTTPS?,TLS,SSL,HTTP,FTP
+CompTIA,An administrator needs to securely block unauthorized traffic entering a local corporate subnet. Which device is best suited for this?,Firewall,Hub,Switch,Repeater
+CompTIA,Which authentication factor relies on an inherent physical characteristic unique to an individual user?,Biometrics,Smart Card,Hardware Token,PIN
+CompTIA,Which access control model bases authorization rules explicitly on an assigned organizational job role?,Role-Based Access Control (RBAC),Mandatory Access Control (MAC),Discretionary Access Control (DAC),Attribute-Based Access Control (ABAC)
+CompTIA,What type of malicious software encrypts user files and demands financial compensation to unlock access?,Ransomware,Spyware,Adware,Rootkit

@@ -1,0 +1,101 @@
+Category,Q,A
+Electric Utility,What does NERC CIP stand for?,North American Electric Reliability Corporation Critical Infrastructure Protection.
+Electric Utility,Which standard covers BES Cyber System Categorization?,CIP-002.
+Electric Utility,"Which standard governs Security Management Controls (policies, CIP Senior Manager)?",CIP-003.
+Electric Utility,"Which standard covers Personnel & Training (background checks, cyber training)?",CIP-004.
+Electric Utility,Which standard covers Electronic Security Perimeters (ESPs)?,CIP-005.
+Electric Utility,Which standard covers Physical Security of BES Cyber Systems?,CIP-006.
+Electric Utility,"Which standard covers System Security Management (ports/services, patches, malware)?",CIP-007.
+Electric Utility,Which standard covers Incident Reporting and Response Planning?,CIP-008.
+Electric Utility,Which standard covers Recovery Plans for BES Cyber Systems?,CIP-009.
+Electric Utility,Which standard governs Configuration Change Management and Vulnerability Assessments?,CIP-010.
+Electric Utility,Which standard covers Information Protection (BES Cyber System Information)?,CIP-011.
+Electric Utility,Which standard covers Communications between Control Centers?,CIP-012.
+Electric Utility,Which standard covers Supply Chain Risk Management?,CIP-013.
+Electric Utility,Which standard covers Physical Security of critical transmission stations/substations?,CIP-014.
+Electric Utility,"Under CIP-010, what five elements must be documented in a baseline configuration?","Operating system/firmware, commercially available or open-source software, custom software, logical network accessible ports, and security patches."
+Electric Utility,How quickly must baseline changes be updated in documentation after implementation under CIP-010?,Within 30 calendar days of completing the change.
+Electric Utility,What must be verified before implementing a baseline change in a production environment under CIP-010?,That the change does not adversely affect existing cybersecurity controls (often tested in a non-production environment).
+Electric Utility,How often must active Vulnerability Assessments be conducted for High and Medium Impact BES Cyber Systems under CIP-010?,At least once every 15 calendar months.
+Electric Utility,How often must Paper Vulnerability Assessments be conducted under CIP-010?,At least once every 36 calendar months.
+Electric Utility,"Under CIP-007, within how many calendar days must a newly released security patch be evaluated?",Within 35 calendar days of availability from the source.
+Electric Utility,"Once a security patch is evaluated as applicable under CIP-007, how long do you have to install it or create a mitigation plan?",Within 35 calendar days of completing the evaluation.
+Electric Utility,How often must CIP-007 security event logs be reviewed for High and Medium Impact systems?,At least once every 15 calendar days (often via automated SIEM alerts).
+Electric Utility,How long must CIP-007 security logs be retained?,At least 90 consecutive calendar days.
+Electric Utility,"Under CIP-004, how frequently must Personnel Risk Assessments (PRAs) be updated?",At least once every 7 years.
+Electric Utility,Within what timeframe must electronic and physical access be revoked for a terminated employee under CIP-004?,Within 24 hours of the termination action.
+Electric Utility,How often must cybersecurity training be completed by personnel with authorized electronic or unescorted physical access?,At least once every 15 calendar months.
+Electric Utility,How often must Electronic Access Control or Monitoring Systems (EACMS) and Physical Access Control Systems (PACS) access permissions be verified?,At least once every 15 calendar months (and quarterly for High Impact shared accounts).
+Electric Utility,What is the 15-minute rule in NERC CIP?,The threshold used in CIP-002 to determine if a cyber asset's compromise would adversely impact the reliable operation of the Bulk Electric System within 15 minutes.
+Electric Utility,What are the three Impact Ratings for BES Cyber Systems under CIP-002?,"High, Medium, and Low."
+Electric Utility,What is an Intermediate System under CIP-005?,A system used to mediate Interactive Remote Access (IRA) so remote users do not connect directly to a BES Cyber System inside an ESP.
+Electric Utility,What security control is mandatory for Interactive Remote Access (IRA) under CIP-005?,Multi-Factor Authentication (MFA) and encryption.
+Electric Utility,What is Transient Cyber Asset (TCA) management under CIP-010?,Security controls applied to portable devices (like laptops or USB drives) temporarily connected to BES Cyber Systems.
+Electric Utility,"Under CIP-008, within what timeframe must a Reportable Cyber Security Incident be reported to the E-ISAC and NCCIC/CISA?",Within 1 hour of determination (or by the end of the next calendar day for attempts to compromise).
+Electric Utility,How often must CIP-008 Incident Response Plans and CIP-009 Recovery Plans be tested?,"At least once every 15 calendar months (paper drill, tabletop, or operational exercise)."
+Electric Utility,What does BCSI stand for in CIP-011?,BES Cyber System Information (data about BES Cyber Systems that could be used to compromise them).
+Electric Utility,What is the CIP Senior Manager responsible for under CIP-003?,Overall authority and responsibility for leading and managing the entity's implementation of and adherence to CIP standards.
+Electric Utility,Can a CIP Senior Manager delegate authority?,"Yes, in writing, though the CIP Senior Manager retains overall accountability."
+Electric Utility,What is an Electronic Access Point (EAP)?,A cyber asset interface on an Electronic Security Perimeter that allows routable communication between cyber assets inside and outside the ESP.
+Electric Utility,What is Dial-up Connectivity regulation under CIP-005?,"Non-routable dial-up connections must use authentication if technically feasible, or disable the port."
+Electric Utility,"Under CIP-013, what must a Supply Chain Cyber Security Risk Management Plan address?","Vendor notifications of security incidents, coordination of responses, vendor personnel access termination, and software integrity/authenticity verification."
+Electric Utility,Which federal agency grants NERC its authority to enforce reliability standards?,Federal Energy Regulatory Commission (FERC).
+Electric Utility,Under which federal law were mandatory electric reliability standards established?,The Energy Policy Act of 2005 (Section 215 of the Federal Power Act).
+Electric Utility,What is NERC's official designation by FERC?,The Electric Reliability Organization (ERO).
+Electric Utility,Which Regional Entity oversees NERC compliance in the ERCOT interconnection?,Texas Reliability Entity (Texas RE).
+Electric Utility,What is ERCOT's primary role in Texas?,Independent System Operator (ISO) managing the flow of electric power to about 90% of Texas's electric load.
+Electric Utility,Why is the ERCOT grid largely exempt from FERC plenary jurisdiction over wholesale rates?,Because the ERCOT interconnection operates almost entirely within the state of Texas and is not synchronously connected to the Eastern or Western Interconnections.
+Electric Utility,Are ERCOT entities still subject to mandatory NERC Reliability Standards?,"Yes, under Section 215 of the Federal Power Act, FERC and NERC have jurisdiction over reliability standards across all of North America, including ERCOT."
+Electric Utility,Which state agency oversees ERCOT and regulates transmission utilities like WETT in Texas?,Public Utility Commission of Texas (PUCT).
+Electric Utility,What is a Transmission Service Provider (TSP) in ERCOT?,An entity that owns or operates facilities used for the transmission of electricity in Texas (such as WETT).
+Electric Utility,What is a Transmission Operator (TOP) in NERC's functional model?,The entity responsible for the reliability of its local transmission system and operating or directing the operations of the transmission facilities.
+Electric Utility,What is a Transmission Owner (TO) in NERC's functional model?,The entity that owns and maintains transmission facilities.
+Electric Utility,What are ERCOT Protocols?,"The binding rules and procedures that govern market operations, grid reliability, and participant responsibilities in ERCOT."
+Electric Utility,What are ERCOT Nodal Operating Guides?,"Supplemental operational rules that detail technical requirements for real-time grid operations, protection systems, and telemetry."
+Electric Utility,How are changes made to ERCOT Protocols?,Through Nodal Protocol Revision Requests (NPRRs) vetted by stakeholder committees and approved by the ERCOT Board and PUCT.
+Electric Utility,How are changes made to ERCOT Operating Guides?,Through Nodal Operating Guide Revision Requests (NOGRRs).
+Electric Utility,What is the Bulk Electric System (BES) generally defined as by NERC?,All transmission elements operated at 100 kV or higher and real/reactive power resources connected at 100 kV or higher (with specific inclusions/exclusions).
+Electric Utility,What is the CMECP?,Compliance Monitoring and Enforcement Program (the framework NERC and Regional Entities use to audit and enforce standards).
+Electric Utility,What is an RSAW?,Reliability Standard Audit Worksheet (the official template auditors use to evaluate compliance evidence).
+Electric Utility,What is a Self-Report in NERC compliance?,A voluntary notification submitted by a Registered Entity to its Regional Entity disclosing a potential non-compliance with a NERC standard.
+Electric Utility,Why is submitting a timely Self-Report beneficial?,It is treated as a mitigating factor by NERC/Texas RE and can significantly reduce or eliminate financial penalties.
+Electric Utility,What is a Mitigation Plan?,A formal action plan submitted to a Regional Entity detailing how an entity will correct a non-compliance and prevent recurrence.
+Electric Utility,What is a Self-Logging program?,A NERC program allowing eligible entities with strong internal controls to log minimal-risk issues internally without immediate formal enforcement processing.
+Electric Utility,What is Internal Controls in the context of NERC compliance?,"Processes, policies, and automated checks designed to prevent, detect, and correct compliance deviations before they become violations."
+Electric Utility,What is an Inherent Risk Assessment (IRA)?,"An evaluation conducted by Texas RE to determine an entity's specific reliability risks based on its assets, footprint, and operational profile."
+Electric Utility,What is a Compliance Exception (CE)?,A streamlined disposition method for minimal-risk non-compliance issues that do not pose a serious risk to BES reliability.
+Electric Utility,"What is a Find, Fix, Track and Report (FFT)?",An enforcement mechanism for moderate-to-minimal risk non-compliances that have already been remediated by the entity.
+Electric Utility,What is a Notice of Penalty (NOP)?,A formal enforcement filing with FERC when a violation warrants a monetary penalty or formal sanction.
+Electric Utility,"What is the maximum statutory penalty FERC/NERC can levy per day, per violation?","Over $1.5 million per day, per violation (adjusted annually for inflation)."
+Electric Utility,What is a NERC Alert?,"An advisory or directive issued by NERC to industry regarding urgent reliability or cybersecurity threats (Levels 1, 2, and 3)."
+Electric Utility,Which level of NERC Alert requires a mandatory response from registered entities?,Level 2 (Recommendation to Industry) and Level 3 (Essential Action).
+Electric Utility,"Which NERC standard family covers Facilities Design, Connections, and Maintenance (FAC)?","FAC standards (e.g., FAC-008 for Facility Ratings)."
+Electric Utility,What is FAC-008 focused on?,Establishing and documenting accurate Facility Ratings (thermal limits) for transmission equipment so equipment is not overloaded.
+Electric Utility,Which NERC standard family covers Protection and Control (PRC)?,"PRC standards (e.g., PRC-005 for Protection System Maintenance)."
+Electric Utility,What does PRC-005 require?,"Documented maintenance and testing programs for protective relays, circuit breakers, and station batteries within strict maximum intervals."
+Electric Utility,What does PRC-004 govern?,Protection System Misoperation Identification and Correction.
+Electric Utility,Within how many calendar days must a Protection System misoperation be analyzed under PRC-004?,Within 120 calendar days of the event.
+Electric Utility,Which NERC standard family covers Emergency Preparedness and Operations (EOP)?,EOP standards.
+Electric Utility,Which standard requires reporting major system disturbances to NERC and the Department of Energy (DOE)?,EOP-004 (Event Reporting) and DOE Form OE-417.
+Electric Utility,Which NERC standard covers Transmission Operations (TOP)?,"TOP standards (e.g., TOP-001, TOP-002, TOP-003)."
+Electric Utility,What does TOP-001 require regarding Real-time Reliability?,Transmission Operators must act to maintain reliability and comply with Reliability Coordinator (ERCOT) Operating Instructions.
+Electric Utility,Which NERC standard covers Communications (COM)?,"COM standards (e.g., COM-001 and COM-002)."
+Electric Utility,What is Three-Part Communication under COM-002?,"Issuing an Operating Instruction, having the receiver repeat it back, and having the issuer confirm it was heard correctly."
+Electric Utility,"Which NERC standard covers Personnel Performance, Training, and Qualifications (PER)?","PER standards (e.g., PER-005 for System Operator training)."
+Electric Utility,"Which NERC standard covers Modeling, Data, and Analysis (MOD)?","MOD standards (e.g., MOD-032 for power system modeling data)."
+Electric Utility,What is Sequence of Events (SOE) data used for in incident investigations?,Timestamped logs from relays and SCADA used to reconstruct the exact millisecond-by-millisecond order of equipment operations during a fault or outage.
+Electric Utility,What is a Digital Fault Recorder (DFR)?,High-speed monitoring equipment that captures voltage and current waveforms during grid disturbances for root cause analysis.
+Electric Utility,Why is time synchronization (GPS/PTP/NTP) critical in compliance investigations?,"It ensures SOE logs, DFRs, and IT security logs across different substations and control centers share an exact, unified clock."
+Electric Utility,What is Root Cause Analysis (RCA) in utility compliance?,"A structured investigation process to identify the underlying systemic, technical, or procedural cause of an event rather than just the immediate symptom."
+Electric Utility,What is Cascading in power grid operations?,The uncontrolled successive loss of system elements triggered by an incident at any location.
+Electric Utility,What is an Interconnection Reliability Operating Limit (IROL)?,"A System Operating Limit that, if violated, could lead to instability, uncontrolled separation, or cascading outages."
+Electric Utility,What is SCADA?,Supervisory Control and Data Acquisition (the industrial control system used to monitor and control substations and transmission lines).
+Electric Utility,What is EMS?,"Energy Management System (the suite of computer-aided tools used by control center operators to monitor, control, and optimize grid performance)."
+Electric Utility,What is ICCP (Inter-Control Center Communications Protocol)?,The data exchange protocol used between ERCOT and Transmission Operators like WETT to share real-time telemetry and status data.
+Electric Utility,What is PMU (Phasor Measurement Unit) / Synchrophasor data?,High-speed grid monitoring devices that measure electrical waves (voltage and current phase angles) 30 to 60 times per second.
+Electric Utility,What is Weatherization regulation in Texas (PUCT Substantive Rule § 25.55)?,Mandatory winter and summer weather preparedness standards enforced by PUCT and inspected by ERCOT following Winter Storm Uri.
+Electric Utility,What is NERC EOP-011 / EOP-012 focused on?,Emergency Operations and Extreme Cold Weather Preparedness and Operations.
+Electric Utility,What is Geomagnetic Disturbance (GMD) regulated under?,NERC TPL-007 (Transmission System Planned Performance for Geomagnetic Disturbance Events).
+Electric Utility,What is Vegetation Management regulated under?,NERC FAC-003 (Transmission Vegetation Management to prevent line outages from tree contacts).
+Electric Utility,How long must compliance evidence generally be retained for NERC audits?,Typically from the last audit period (3 to 6 years depending on the standard's data retention clause).
+Electric Utility,What is the primary goal of a Culture of Compliance?,"Fostering an organizational environment where employees proactively identify risks, follow procedures, and self-report potential issues without fear of retaliation."

@@ -50,7 +50,7 @@
     if (Object.keys(st.notes || {}).length === 0) {
       var defaultNote = '__DEFAULT_NOTE__';
       var seededNotes = {};
-      seededNotes[defaultNote] = '';
+      seededNotes[defaultNote] = 'Click Play to hear your notes read aloud.';
       window.setState({
         notes: seededNotes,
         activeNote: defaultNote,
@@ -160,7 +160,7 @@
     if (typeof window.showConfirm === 'function') {
       window.showConfirm(
         t('deleteNote', 'Delete note'),
-        t('deleteConfirmMsg', 'Delete "{name}"? This cannot be undone.').replace('{name}', target),
+                t('deleteConfirmMsg', 'Delete "{name}"? This cannot be undone.').replace('{name}', (typeof window.getDisplayName === 'function') ? window.getDisplayName(target, 'notes') : target),
         t('deleteBtn', 'Delete'),
         doDelete
       );
