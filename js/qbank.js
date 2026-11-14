@@ -6,8 +6,8 @@
 (function () {
   'use strict';
 
-  var CSV_URLS = ['Business_Analysis.csv', 'AI.csv', 'Electric_Utility.csv',
-    'Cybersecurity.csv', 'Prosci.csv'
+  var CSV_URLS = ['banks/Business_Analysis.csv', 'banks/AI.csv', 'banks/Electric_Utility.csv',
+    'banks/Cybersecurity.csv', 'banks/Prosci.csv'
    ];
   var DEFAULT_COUNT = 20;
   var USED_KEY = 'qbankUsed';
