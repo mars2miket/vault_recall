@@ -1,5 +1,5 @@
 // Bump CACHE when you want to force-refresh all cached files.
-var CACHE = 'vault-recall-v1.1.1';
+var CACHE = 'vault-recall-v1.1.2';
 var FILES = [
   './', 'index.html', 'manifest.json',
   'styles/components.css', 'styles/layout.css', 'styles/qbank.css',
@@ -13,8 +13,8 @@ var FILES = [
   'js/sorting.js', 'js/speech-controls.js', 'js/speech-core.js', 
   'js/speech-engine.js', 'js/speech-popups.js', 'js/speech-voices.js',
   'js/state.js', 'js/storage.js', 'js/workspace.js', 
-  'AI.csv', 'Business_Analysis.csv', 'Electric_Utility.csv',
-  'Cybersecurity.csv', 'Prosci.csv',
+  'banks/AI.csv', 'banks/Business_Analysis.csv', 'banks/Electric_Utility.csv',
+  'banks/Cybersecurity.csv', 'banks/Prosci.csv',
   'icons/icon-192.png', 'icons/icon-512.png'
 ];
 
